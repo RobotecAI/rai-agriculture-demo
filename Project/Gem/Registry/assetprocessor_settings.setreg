@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder RAIAgricultureDemo/Assets": {
+                    "watch": "@GEMROOT:RAIAgricultureDemo@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder RAIAgricultureDemo/Registry": {
+                    "watch": "@GEMROOT:RAIAgricultureDemo@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

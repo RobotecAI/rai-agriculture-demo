@@ -1,0 +1,28 @@
+{
+    "project_name": "RAIAgricultureDemo",
+    "version": "1.0.0",
+    "project_id": "{098BD92E-A85A-4204-87EF-105FF5074835}",
+    "origin": "The primary repo for RAIAgricultureDemo goes here: i.e. http://www.mydomain.com",
+    "license": "What license RAIAgricultureDemo uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "RAIAgricultureDemo",
+    "summary": "A short description of RAIAgricultureDemo.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "RAIAgricultureDemo"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "gem_names": [
+        "RAIAgricultureDemo",
+        "Atom",
+        "CameraFramework",
+        "ImGui"
+    ],
+    "restricted": "RAIAgricultureDemo",
+    "engine_version": "2.3.0"
+}
