@@ -32,13 +32,12 @@
                 "Configuration": {
                     "AreaSystemConfig": {
                         "ViewRectangleSize": 5,
-                        "SectorDensity": 35,
                         "SectorSizeInMeters": 20,
                         "ThreadProcessingIntervalMs": 5
                     },
                     "InstanceSystemConfig": {
-                        "MaxInstanceProcessTimeMicroseconds": 50,
-                        "MaxInstanceTaskBatchSize": 10
+                        "MaxInstanceProcessTimeMicroseconds": 10,
+                        "MaxInstanceTaskBatchSize": 5
                     }
                 },
                 "EditorMaxInstanceProcessTimeMicroseconds": 10000
