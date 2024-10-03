@@ -1,0 +1,14 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Textures/farm_barn_LOD0.png",
+        "emissive.enable": true,
+        "emissive.intensity": 0.3799999952316284,
+        "emissive.textureMap": "Textures/farm_barn_LOD0.png",
+        "general.doubleSided": true,
+        "opacity.factor": 0.3199999928474426,
+        "opacity.mode": "Cutout",
+        "specularF0.factor": 0.0
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.factor": 0.5299999713897705,
+        "baseColor.textureMap": "Textures/dry_ground_rocks_basecolor.jpg",
+        "baseColor.textureMapUv": "Unwrapped",
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.useTexture": false,
+        "normal.factor": 1.059999942779541,
+        "normal.textureMap": "Textures/dry_ground_rocks_normal.jpg",
+        "normal.textureMapUv": "Unwrapped",
+        "parallax.textureMapUv": "Unwrapped",
+        "parallax.useTexture": false,
+        "roughness.textureMap": "Textures/dry_ground_rocks_roughness.jpg",
+        "specularF0.factor": 0.0,
+        "terrain.heightOffset": -0.47999998927116394,
+        "uv.tileU": 0.20000000298023224,
+        "uv.tileV": 0.20000000298023224
+    }
+}

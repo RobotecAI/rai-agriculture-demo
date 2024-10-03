@@ -1,0 +1,71 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4E3704C8-AAF5-5CD4-8345-ED8C7B1E98C1}",
+            "name": "fence",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.farm_barn_LOD0",
+                    "RootNode.farm_barn_LOD0.UVMap",
+                    "RootNode.farm_barn_LOD0.barn_001",
+                    "RootNode.farm_barn_LOD0.custom_properties",
+                    "RootNode.farm_barn_LOD0.transform",
+                    "RootNode.farm_barn_LOD1",
+                    "RootNode.farm_barn_LOD1.UVMap",
+                    "RootNode.farm_barn_LOD1.barn_001",
+                    "RootNode.farm_barn_LOD1.custom_properties",
+                    "RootNode.farm_barn_LOD1.transform"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "barn",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.farm_barn_LOD0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.farm_barn_LOD1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.farm_barn_LOD1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.farm_barn_LOD0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{9D05E22F-E8B0-499C-98DA-96C32C351C61}"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{58C9F7A9-B1AB-5708-87E1-A4F08E4C0C6D}",
+            "name": "LargeTerrain",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Plane_001"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Plane_001.LargeTerrain",
+                    "RootNode.Plane_001.UVMap",
+                    "RootNode.Plane_001.custom_properties",
+                    "RootNode.Plane_001.transform"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "LargeTerrain"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "LargeTerrain",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Plane_001",
+                    "RootNode.Plane_001.LargeTerrain",
+                    "RootNode.Plane_001.UVMap",
+                    "RootNode.Plane_001.custom_properties",
+                    "RootNode.Plane_001.transform"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{70F7BFB0-13DA-5774-B523-79659D564A4B}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_LargeTerrain_8B217150_61DE_5295_B45A_78F170131B5B_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Plane_001"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{8B217150-61DE-5295-B45A-78F170131B5B}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Levels/VLMOrchard/Assets/LargeTerrain/Models/LargeTerrain_fbx.procprefab",
+            "id": "{608B459B-48DF-5E4D-8AA8-1E9E090F13B7}"
+        }
+    ]
+}
