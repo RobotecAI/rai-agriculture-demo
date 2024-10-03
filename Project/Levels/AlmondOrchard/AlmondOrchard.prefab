@@ -1,0 +1,253 @@
+{
+    "ContainerEntity": {
+        "Id": "Entity_[340953507857]",
+        "Name": "Level",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10307429170490476557
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9821112361188636633
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18280810200699143635,
+                "Child Entity Order": [
+                    "Entity_[32971353514888]",
+                    "Instance_[33512153838704]/ContainerEntity",
+                    "Instance_[49893159105648]/ContainerEntity",
+                    "Instance_[5601123711445]/ContainerEntity",
+                    "Instance_[14191058303445]/ContainerEntity"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17608267933731173633
+            },
+            "EditorLevelSettingsComponent": {
+                "$type": "EditorLevelSettingsComponent",
+                "Id": 2033292114715158108,
+                "Configuration": {
+                    "AreaSystemConfig": {
+                        "ViewRectangleSize": 5,
+                        "SectorDensity": 35,
+                        "SectorSizeInMeters": 20,
+                        "ThreadProcessingIntervalMs": 5
+                    },
+                    "InstanceSystemConfig": {
+                        "MaxInstanceProcessTimeMicroseconds": 50,
+                        "MaxInstanceTaskBatchSize": 10
+                    }
+                },
+                "EditorMaxInstanceProcessTimeMicroseconds": 10000
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 11726424027770186920
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10965323062493218205
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17918111346641607784
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4003705505237644787
+            },
+            "EditorTerrainWorldComponent": {
+                "$type": "EditorTerrainWorldComponent",
+                "Id": 2801689054350096051,
+                "Configuration": {
+                    "MinHeight": -2.0,
+                    "MaxHeight": 5.0,
+                    "HeightQueryResolution": 0.5,
+                    "SurfaceDataQueryResolution": 0.5
+                }
+            },
+            "EditorTerrainWorldRendererComponent": {
+                "$type": "EditorTerrainWorldRendererComponent",
+                "Id": 11599313876034606745
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16476462720432133334
+            },
+            "LocalViewBookmarkComponent": {
+                "$type": "LocalViewBookmarkComponent",
+                "Id": 4709333686948241310,
+                "LocalBookmarkFileName": "AgricultureLevel_1696872721922202807.setreg"
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3724232816857354000,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[32971353514888]": {
+            "Id": "Entity_[32971353514888]",
+            "Name": "Camera",
+            "Components": {
+                "EditorCameraComponent": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 6013260415170854063,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 60.0
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3910199017660360609
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 519870282574990518
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12387239579299871703
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18277187215192183870
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11468104122221909372
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1004991698064447992
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1498692731186072997
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18011276727274243058
+                },
+                "FlyCameraInputComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 10390275429178628046,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent",
+                        "Move Speed": 5.0
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7630239554436924095,
+                    "Parent Entity": "Entity_[340953507857]",
+                    "Transform Data": {
+                        "Translate": [
+                            82.04639434814453,
+                            100.34629821777344,
+                            9.47680950164795
+                        ],
+                        "Rotate": [
+                            8.327606201171875,
+                            16.71734046936035,
+                            -116.97012329101563
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[14191058303445]": {
+            "Source": "Assets/Environment/Environment.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                }
+            ]
+        },
+        "Instance_[33512153838704]": {
+            "Source": "Assets/Terrain/LargeTerrain.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                }
+            ]
+        },
+        "Instance_[49893159105648]": {
+            "Source": "Assets/Terrain/OrchardTile.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151716153295042]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151698973425858]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151754808000706]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151720448262338]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151703268393154]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 100.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 100.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151681793556674]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[5601123711445]": {
+            "Source": "Assets/Terrain/Custom_Trees.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                }
+            ]
+        }
+    }
+}
