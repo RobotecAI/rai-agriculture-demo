@@ -20,10 +20,16 @@
         "Gem"
     ],
     "gem_names": [
-        "RAIAgricultureDemo",
         "Atom",
         "CameraFramework",
-        "ImGui"
+        "ImGui",
+        "LandscapeCanvas",
+        "RAIAgricultureDemo",
+        "Terrain",
+        "Vegetation",
+        "RobotecSkyboxAssets",
+        "RobotecAgricultureVegetationAssets",
+        "CsvSpawner"
     ],
     "restricted": "RAIAgricultureDemo",
     "engine_version": "2.3.0"

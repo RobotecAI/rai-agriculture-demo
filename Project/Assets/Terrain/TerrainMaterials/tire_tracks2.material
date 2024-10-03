@@ -1,0 +1,23 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.color": [
+            0.24347294867038727,
+            0.16375982761383057,
+            0.056229494512081146,
+            1.0
+        ],
+        "baseColor.factor": 0.4300000071525574,
+        "baseColor.textureBlendMode": "Overlay",
+        "baseColor.textureMap": "Textures/TireTracks_Basecolor.png",
+        "baseColor.textureMapUv": "Unwrapped",
+        "metallic.useTexture": false,
+        "normal.factor": 0.5199999809265137,
+        "normal.textureMap": "Textures/TireTracks_Normal.png",
+        "specularF0.factor": 0.0,
+        "uv.rotateDegrees": 90.0,
+        "uv.tileU": 0.10000000149011612,
+        "uv.tileV": 0.10000000149011612
+    }
+}

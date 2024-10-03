@@ -1,0 +1,25 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardMultilayerPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "blend.enableLayer2": true,
+        "blend.textureMap": "Textures/LayersMap.png",
+        "layer1.baseColor.color": [
+            0.3796444535255432,
+            0.5875486135482788,
+            0.3949797749519348,
+            1.0
+        ],
+        "layer1.baseColor.textureMap": "Textures/aerial_grass_rock_basecolor.jpg",
+        "layer1.normal.textureMap": "Textures/aerial_grass_rock_normal.png",
+        "layer1.roughness.textureMap": "Textures/aerial_grass_rock_roughness.jpg",
+        "layer1.uv.rotateDegrees": 20.0,
+        "layer1.uv.tileU": 10.0,
+        "layer1.uv.tileV": 10.0,
+        "layer2.baseColor.textureMap": "../../TerrainMaterials/Textures/dry_ground_rocks_basecolor.jpg",
+        "layer2.normal.textureMap": "../../TerrainMaterials/Textures/dry_ground_rocks_normal.jpg",
+        "layer2.roughness.textureMap": "../../TerrainMaterials/Textures/dry_ground_rocks_roughness.jpg",
+        "layer2.uv.tileU": 40.0,
+        "layer2.uv.tileV": 40.0
+    }
+}

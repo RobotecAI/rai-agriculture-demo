@@ -1,0 +1,4256 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LargeTerrain",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5955424799344361888
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12900594480965065403
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8204915501317149457,
+                "Child Entity Order": [
+                    "Entity_[144951579803842]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10330502235729465957
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 10439405797964308905
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7990068747600097458
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 784895881574226413
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8421098622428727584
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4894536845281203710
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15617494120316011516,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[108159134571730]": {
+            "Id": "Entity_[108159134571730]",
+            "Name": "02",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 383623127607717986
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11759040635054076287
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 986969060127187388,
+                    "Child Entity Order": [
+                        "Entity_[108167724506322]",
+                        "Entity_[108163429539026]",
+                        "Entity_[288758214401234]",
+                        "Entity_[288753919433938]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16027341031411242432
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5731800075105372902
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8139939632345884160
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13512734530639733752
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2681171912075223164
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12080915045341199966,
+                    "Parent Entity": "Entity_[144942989869250]",
+                    "Transform Data": {
+                        "Translate": [
+                            -664.7193603515625,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[108163429539026]": {
+            "Id": "Entity_[108163429539026]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[41973588824201]/ContainerEntity",
+                        "Instance_[41986473726089]/ContainerEntity",
+                        "Instance_[41999358627977]/ContainerEntity",
+                        "Instance_[42003653595273]/ContainerEntity",
+                        "Instance_[108210674179282]/ContainerEntity",
+                        "Instance_[108180609408210]/ContainerEntity",
+                        "Instance_[108189199342802]/ContainerEntity",
+                        "Instance_[108206379211986]/ContainerEntity",
+                        "Instance_[108197789277394]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[108159134571730]",
+                    "Transform Data": {
+                        "Translate": [
+                            -65.76345825195313,
+                            172.8822479248047,
+                            1.2048141956329346
+                        ],
+                        "Rotate": [
+                            -0.9583072066307068,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[108167724506322]": {
+            "Id": "Entity_[108167724506322]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity",
+                        "Instance_[108172019473618]/ContainerEntity",
+                        "Instance_[108176314440914]/ContainerEntity",
+                        "Instance_[108193494310098]/ContainerEntity",
+                        "Instance_[108202084244690]/ContainerEntity",
+                        "Instance_[108184904375506]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[108159134571730]",
+                    "Transform Data": {
+                        "Translate": [
+                            -65.76345825195313,
+                            133.5674285888672,
+                            1.4612634181976318
+                        ],
+                        "Rotate": [
+                            0.16162367165088654,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[138172266320009]": {
+            "Id": "Entity_[138172266320009]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity",
+                        "Instance_[42278531502217]/ContainerEntity",
+                        "Instance_[42265646600329]/ContainerEntity",
+                        "Instance_[42269941567625]/ContainerEntity",
+                        "Instance_[42282826469513]/ContainerEntity",
+                        "Instance_[42274236534921]/ContainerEntity",
+                        "Instance_[138193741156489]/ContainerEntity",
+                        "Instance_[138176561287305]/ContainerEntity",
+                        "Instance_[138189446189193]/ContainerEntity",
+                        "Instance_[138185151221897]/ContainerEntity",
+                        "Instance_[138180856254601]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            319.81024169921875,
+                            60.96929168701172,
+                            1.6970112323760986
+                        ],
+                        "Rotate": [
+                            -0.132386714220047,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[144925810000066]": {
+            "Id": "Entity_[144925810000066]",
+            "Name": "01",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17115354103667019705
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8786701368486176428
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14800239905742494684,
+                    "Child Entity Order": [
+                        "Entity_[144930104967362]",
+                        "Entity_[42184042221705]",
+                        "Entity_[42261351633033]",
+                        "Entity_[138172266320009]",
+                        "Entity_[42338661044361]",
+                        "Entity_[42415970455689]",
+                        "Entity_[42025128431753]",
+                        "Entity_[42102437843081]",
+                        "Instance_[10392694296713]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2246562694232880460
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9835949214569475719
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7678873134137068018
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15215235250777663111
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13482141506824198910
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1413012927708565058,
+                    "Parent Entity": "Entity_[144942989869250]",
+                    "Transform Data": {
+                        "Translate": [
+                            -664.7193603515625,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[144930104967362]": {
+            "Id": "Entity_[144930104967362]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            225.89773559570313,
+                            127.615966796875,
+                            1.166529893875122
+                        ],
+                        "Rotate": [
+                            -0.9583072066307068,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[144938694901954]": {
+            "Id": "Entity_[144938694901954]",
+            "Name": "Terrain",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1663929479215247587,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{CE64A25C-538A-571C-A1CE-73610D05C018}",
+                                    "subId": 276313542
+                                },
+                                "assetHint": "assets/terrain/largeterrain/models/largeterrain.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9147720974757488007
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5284970769866034836
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9408485052319188394
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7667127323939008567
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4255626555955597346
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5435393977515129712,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 476310767
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{29944E77-999E-5219-8569-3CA45EAFE612}"
+                                            },
+                                            "assetHint": "assets/terrain/largeterrain/materials/largeterrainmultilayer.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5574492243495360703
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8964334894457288788
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9903471675331691748
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15130663127774683753,
+                    "Parent Entity": "Entity_[144951579803842]",
+                    "Transform Data": {
+                        "Translate": [
+                            73.84593200683594,
+                            78.6968994140625,
+                            1.5411930084228516
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 0.800000011920929
+                    }
+                }
+            }
+        },
+        "Entity_[144942989869250]": {
+            "Id": "Entity_[144942989869250]",
+            "Name": "Objects",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 47719539885036759
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2204194941931521034
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 21164046601945384,
+                    "Child Entity Order": [
+                        "Entity_[144925810000066]",
+                        "Entity_[108159134571730]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4561670549947977078
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17644813337677777332
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13682345030853326794
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10674888866649110769
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8633372975177577251
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14604421857619648011,
+                    "Parent Entity": "Entity_[144951579803842]",
+                    "Transform Data": {
+                        "Translate": [
+                            664.7193603515625,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[144951579803842]": {
+            "Id": "Entity_[144951579803842]",
+            "Name": "LargeTerrain",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17490132683923247989
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6687544290518793362
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5162679188261331714,
+                    "Child Entity Order": [
+                        "Entity_[46109642330249]",
+                        "Entity_[144938694901954]",
+                        "Entity_[144942989869250]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18387711961127061688,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4326232623567245902
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17787442386588023186
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1160590412059092092
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13052679044359186341
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4732976749027556559
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4326232623567245902,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[288753919433938]": {
+            "Id": "Entity_[288753919433938]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity",
+                        "Instance_[108172019473618]/ContainerEntity",
+                        "Instance_[108176314440914]/ContainerEntity",
+                        "Instance_[108193494310098]/ContainerEntity",
+                        "Instance_[108202084244690]/ContainerEntity",
+                        "Instance_[108184904375506]/ContainerEntity",
+                        "Instance_[288783984205010]/ContainerEntity",
+                        "Instance_[288775394270418]/ContainerEntity",
+                        "Instance_[288779689237714]/ContainerEntity",
+                        "Instance_[288788279172306]/ContainerEntity",
+                        "Instance_[288801164074194]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[108159134571730]",
+                    "Transform Data": {
+                        "Translate": [
+                            -90.94597625732422,
+                            30.7430419921875,
+                            1.4612634181976318
+                        ],
+                        "Rotate": [
+                            0.16162367165088654,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[288758214401234]": {
+            "Id": "Entity_[288758214401234]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[41973588824201]/ContainerEntity",
+                        "Instance_[41986473726089]/ContainerEntity",
+                        "Instance_[41999358627977]/ContainerEntity",
+                        "Instance_[42003653595273]/ContainerEntity",
+                        "Instance_[108210674179282]/ContainerEntity",
+                        "Instance_[108180609408210]/ContainerEntity",
+                        "Instance_[108189199342802]/ContainerEntity",
+                        "Instance_[108206379211986]/ContainerEntity",
+                        "Instance_[108197789277394]/ContainerEntity",
+                        "Instance_[288762509368530]/ContainerEntity",
+                        "Instance_[288771099303122]/ContainerEntity",
+                        "Instance_[288792574139602]/ContainerEntity",
+                        "Instance_[288766804335826]/ContainerEntity",
+                        "Instance_[288796869106898]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[108159134571730]",
+                    "Transform Data": {
+                        "Translate": [
+                            -90.94597625732422,
+                            70.057861328125,
+                            1.2048141956329346
+                        ],
+                        "Rotate": [
+                            -0.9583072066307068,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[42025128431753]": {
+            "Id": "Entity_[42025128431753]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42033718366345]/ContainerEntity",
+                        "Instance_[42038013333641]/ContainerEntity",
+                        "Instance_[42029423399049]/ContainerEntity",
+                        "Instance_[42042308300937]/ContainerEntity",
+                        "Instance_[42046603268233]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            225.89773559570313,
+                            166.81222534179688,
+                            0.11944490671157837
+                        ],
+                        "Rotate": [
+                            -2.302034854888916,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[42102437843081]": {
+            "Id": "Entity_[42102437843081]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42033718366345]/ContainerEntity",
+                        "Instance_[42038013333641]/ContainerEntity",
+                        "Instance_[42029423399049]/ContainerEntity",
+                        "Instance_[42042308300937]/ContainerEntity",
+                        "Instance_[42046603268233]/ContainerEntity",
+                        "Instance_[42111027777673]/ContainerEntity",
+                        "Instance_[42106732810377]/ContainerEntity",
+                        "Instance_[42123912679561]/ContainerEntity",
+                        "Instance_[42115322744969]/ContainerEntity",
+                        "Instance_[42119617712265]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            246.71022033691406,
+                            168.85256958007813,
+                            -0.35127824544906616
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.8821533918380737,
+                            90.00000762939453
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[42184042221705]": {
+            "Id": "Entity_[42184042221705]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            225.89773559570313,
+                            88.3011474609375,
+                            1.4229791164398193
+                        ],
+                        "Rotate": [
+                            0.16162367165088654,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[42261351633033]": {
+            "Id": "Entity_[42261351633033]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity",
+                        "Instance_[42278531502217]/ContainerEntity",
+                        "Instance_[42265646600329]/ContainerEntity",
+                        "Instance_[42269941567625]/ContainerEntity",
+                        "Instance_[42282826469513]/ContainerEntity",
+                        "Instance_[42274236534921]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            225.89773559570313,
+                            35.45705795288086,
+                            1.3282811641693115
+                        ],
+                        "Rotate": [
+                            0.16162367165088654,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[42338661044361]": {
+            "Id": "Entity_[42338661044361]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity",
+                        "Instance_[42278531502217]/ContainerEntity",
+                        "Instance_[42265646600329]/ContainerEntity",
+                        "Instance_[42269941567625]/ContainerEntity",
+                        "Instance_[42282826469513]/ContainerEntity",
+                        "Instance_[42274236534921]/ContainerEntity",
+                        "Instance_[42355840913545]/ContainerEntity",
+                        "Instance_[42342956011657]/ContainerEntity",
+                        "Instance_[42347250978953]/ContainerEntity",
+                        "Instance_[42351545946249]/ContainerEntity",
+                        "Instance_[42360135880841]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            244.02484130859375,
+                            53.420875549316406,
+                            1.3561375141143799
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            89.99994659423828
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[42415970455689]": {
+            "Id": "Entity_[42415970455689]",
+            "Name": "fence",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9040887950520128668
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12412324827352068821
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 276014335295668918,
+                    "Child Entity Order": [
+                        "Instance_[10633212465289]/ContainerEntity",
+                        "Instance_[42201222090889]/ContainerEntity",
+                        "Instance_[42196927123593]/ContainerEntity",
+                        "Instance_[42188337189001]/ContainerEntity",
+                        "Instance_[42192632156297]/ContainerEntity",
+                        "Instance_[42205517058185]/ContainerEntity",
+                        "Instance_[42278531502217]/ContainerEntity",
+                        "Instance_[42265646600329]/ContainerEntity",
+                        "Instance_[42269941567625]/ContainerEntity",
+                        "Instance_[42282826469513]/ContainerEntity",
+                        "Instance_[42274236534921]/ContainerEntity",
+                        "Instance_[42355840913545]/ContainerEntity",
+                        "Instance_[42342956011657]/ContainerEntity",
+                        "Instance_[42347250978953]/ContainerEntity",
+                        "Instance_[42351545946249]/ContainerEntity",
+                        "Instance_[42360135880841]/ContainerEntity",
+                        "Instance_[42433150324873]/ContainerEntity",
+                        "Instance_[42420265422985]/ContainerEntity",
+                        "Instance_[42428855357577]/ContainerEntity",
+                        "Instance_[42424560390281]/ContainerEntity",
+                        "Instance_[42437445292169]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12602899034813902805
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11643233241146881042
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460811817820220608
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10698055727087959971
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8436855364657878925
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12906438546987608978,
+                    "Parent Entity": "Entity_[144925810000066]",
+                    "Transform Data": {
+                        "Translate": [
+                            243.9739990234375,
+                            70.88536071777344,
+                            1.3561375141143799
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            89.99994659423828
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[46109642330249]": {
+            "Id": "Entity_[46109642330249]",
+            "Name": "Trees",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4979687289715710590
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8683321320942304430
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16897623253982295858,
+                    "Child Entity Order": [
+                        "Instance_[138249575731337]/ContainerEntity",
+                        "Instance_[137734179655817]/ContainerEntity",
+                        "Instance_[137768539394185]/ContainerEntity",
+                        "Instance_[137802899132553]/ContainerEntity",
+                        "Instance_[137875913576585]/ContainerEntity",
+                        "Instance_[137901683380361]/ContainerEntity",
+                        "Instance_[137918863249545]/ContainerEntity",
+                        "Instance_[137953222987913]/ContainerEntity",
+                        "Instance_[137978992791689]/ContainerEntity",
+                        "Instance_[138060597170313]/ContainerEntity",
+                        "Instance_[137837258870921]/ContainerEntity",
+                        "Instance_[61653128974473]/ContainerEntity",
+                        "Instance_[61721848451209]/ContainerEntity",
+                        "Instance_[61739028320393]/ContainerEntity",
+                        "Instance_[61756208189577]/ContainerEntity",
+                        "Instance_[61773388058761]/ContainerEntity",
+                        "Instance_[61790567927945]/ContainerEntity",
+                        "Instance_[61807747797129]/ContainerEntity",
+                        "Instance_[61824927666313]/ContainerEntity",
+                        "Instance_[61842107535497]/ContainerEntity",
+                        "Instance_[61670308843657]/ContainerEntity",
+                        "Instance_[61687488712841]/ContainerEntity",
+                        "Instance_[61704668582025]/ContainerEntity",
+                        "Instance_[99792438562953]/ContainerEntity",
+                        "Instance_[99809618432137]/ContainerEntity",
+                        "Instance_[99826798301321]/ContainerEntity",
+                        "Instance_[99843978170505]/ContainerEntity",
+                        "Instance_[99861158039689]/ContainerEntity",
+                        "Instance_[99878337908873]/ContainerEntity",
+                        "Instance_[99895517778057]/ContainerEntity",
+                        "Instance_[99912697647241]/ContainerEntity",
+                        "Instance_[99929877516425]/ContainerEntity",
+                        "Instance_[99947057385609]/ContainerEntity",
+                        "Instance_[99964237254793]/ContainerEntity",
+                        "Instance_[99981417123977]/ContainerEntity",
+                        "Instance_[99998596993161]/ContainerEntity",
+                        "Instance_[100015776862345]/ContainerEntity",
+                        "Instance_[100032956731529]/ContainerEntity",
+                        "Instance_[100050136600713]/ContainerEntity",
+                        "Instance_[100067316469897]/ContainerEntity",
+                        "Instance_[100084496339081]/ContainerEntity",
+                        "Instance_[100101676208265]/ContainerEntity",
+                        "Instance_[100118856077449]/ContainerEntity",
+                        "Instance_[100136035946633]/ContainerEntity",
+                        "Instance_[100153215815817]/ContainerEntity",
+                        "Instance_[100170395685001]/ContainerEntity",
+                        "Instance_[100187575554185]/ContainerEntity",
+                        "Instance_[100204755423369]/ContainerEntity",
+                        "Instance_[100221935292553]/ContainerEntity",
+                        "Instance_[100239115161737]/ContainerEntity",
+                        "Instance_[100256295030921]/ContainerEntity",
+                        "Instance_[100282064834697]/ContainerEntity",
+                        "Instance_[100299244703881]/ContainerEntity",
+                        "Instance_[100316424573065]/ContainerEntity",
+                        "Instance_[100333604442249]/ContainerEntity",
+                        "Instance_[100350784311433]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17759046584922544843
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7095296779946617610
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2784107076818764216
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12506900814608101626
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8928744490865029339
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13860652838082010074,
+                    "Parent Entity": "Entity_[144951579803842]",
+                    "Transform Data": {
+                        "Translate": [
+                            269.30523681640625,
+                            94.65189361572266,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[100015776862345]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -210.1575469970703
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -268.1329345703125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 3.7725868225097656
+                }
+            ]
+        },
+        "Instance_[100032956731529]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -305.5244445800781
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -42.709442138671875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5449142456054688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -152.3988037109375
+                }
+            ]
+        },
+        "Instance_[100050136600713]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -297.2177734375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -58.41533660888672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5466346740722656
+                }
+            ]
+        },
+        "Instance_[100067316469897]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -330.1151123046875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -27.40155792236328
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5457630157470703
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 12.797207832336426
+                }
+            ]
+        },
+        "Instance_[100084496339081]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -229.11807250976565
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 129.0963134765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5412063598632813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -98.69410705566406
+                }
+            ]
+        },
+        "Instance_[100101676208265]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 1.6173778772354126
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 1.6173778772354126
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 1.6173778772354126
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -217.24021911621097
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 146.06195068359375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5412063598632813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 81.37750244140625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.4703434705734253
+                }
+            ]
+        },
+        "Instance_[100118856077449]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -198.70559692382813
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 121.70475006103516
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.54119873046875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -48.335601806640625
+                }
+            ]
+        },
+        "Instance_[100136035946633]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -209.4464111328125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 129.82388305664065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5411911010742188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -155.87994384765625
+                }
+            ]
+        },
+        "Instance_[100153215815817]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 0.8945245146751404
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 0.8945245146751404
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 0.8945245146751404
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -202.77584838867188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 135.7178955078125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5411911010742188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 37.11619567871094
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 0.8132041096687317
+                }
+            ]
+        },
+        "Instance_[100170395685001]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -263.3181457519531
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 254.792236328125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 6.028648376464844
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -70.01530456542969
+                }
+            ]
+        },
+        "Instance_[100187575554185]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -257.7378234863281
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 275.9707946777344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 10.367439270019531
+                }
+            ]
+        },
+        "Instance_[100204755423369]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -278.3265686035156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 264.877685546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 7.772590637207031
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 6.350108623504639
+                }
+            ]
+        },
+        "Instance_[100221935292553]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -430.6041870117187
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 264.2066650390625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 5.00689697265625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -42.36037826538086
+                }
+            ]
+        },
+        "Instance_[100239115161737]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -458.2964172363281
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 259.4052734375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 8.256072998046875
+                }
+            ]
+        },
+        "Instance_[100256295030921]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -115.29306030273438
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 121.05261993408205
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.754547119140625
+                }
+            ]
+        },
+        "Instance_[100282064834697]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -128.13485717773438
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 149.36019897460938
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -0.00228118896484375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -47.571720123291016
+                }
+            ]
+        },
+        "Instance_[100299244703881]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -88.985595703125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 159.5457763671875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.1585769653320313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 22.617469787597656
+                }
+            ]
+        },
+        "Instance_[100316424573065]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -94.2720184326172
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 245.65737915039065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -6.207672119140625
+                }
+            ]
+        },
+        "Instance_[100333604442249]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -204.6511688232422
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -107.95600128173828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.7385978698730469
+                }
+            ]
+        },
+        "Instance_[100350784311433]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -218.81771850585935
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -100.4268798828125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.658367156982422
+                }
+            ]
+        },
+        "Instance_[10392694296713]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/BarnFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[144925810000066]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 323.5010070800781
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 96.18633270263672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.0529098510742188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 3.0
+                }
+            ]
+        },
+        "Instance_[10633212465289]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[144930104967362]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108172019473618]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108167724506322]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108176314440914]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108167724506322]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108180609408210]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108163429539026]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108184904375506]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108167724506322]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108189199342802]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108163429539026]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108193494310098]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108167724506322]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108197789277394]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108163429539026]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108202084244690]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108167724506322]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108206379211986]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108163429539026]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[108210674179282]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[108163429539026]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[137734179655817]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -40.57696533203125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 66.16143035888672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.184800148010254
+                }
+            ]
+        },
+        "Instance_[137768539394185]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 1.3177859783172607
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 1.3177859783172607
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 1.3177859783172607
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 38.702545166015625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -12.402946472167969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -1.209920883178711
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.1979871988296509
+                }
+            ]
+        },
+        "Instance_[137802899132553]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -117.33035278320313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -103.66065979003906
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -1.6652445793151855
+                }
+            ]
+        },
+        "Instance_[137837258870921]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -119.454345703125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -110.9259796142578
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -1.6652445793151855
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -119.43795776367188
+                }
+            ]
+        },
+        "Instance_[137875913576585]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46161181937801]/Entities/Entity_[544184118244]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 3.0370707511901855
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46161181937801]/Entities/Entity_[544184118244]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 3.0370707511901855
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46161181937801]/Entities/Entity_[544184118244]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 3.0370707511901855
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -108.31166076660156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -109.5208740234375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5892620086669922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.2148282527923584
+                }
+            ]
+        },
+        "Instance_[137901683380361]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46161181937801]/Entities/Entity_[544184118244]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 3.099214553833008
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46161181937801]/Entities/Entity_[544184118244]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 3.099214553833008
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46161181937801]/Entities/Entity_[544184118244]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 3.099214553833008
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -299.67852783203125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 62.571067810058594
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5411968231201172
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.2396857738494873
+                }
+            ]
+        },
+        "Instance_[137918863249545]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -294.72021484375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 75.26219940185547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5411977767944336
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -151.4188995361328
+                }
+            ]
+        },
+        "Instance_[137953222987913]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -289.6546936035156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 72.1283950805664
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -1.0177879333496094
+                }
+            ]
+        },
+        "Instance_[137978992791689]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 1.3590131998062134
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 1.3590131998062134
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 1.3590131998062134
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -314.8885803222656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 53.59729766845703
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -1.952061653137207
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.235466480255127
+                }
+            ]
+        },
+        "Instance_[138060597170313]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -121.26425170898438
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 133.81756591796875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.6009521484375
+                }
+            ]
+        },
+        "Instance_[138176561287305]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[138172266320009]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[138180856254601]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[138172266320009]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[138185151221897]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[138172266320009]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[138189446189193]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[138172266320009]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[138193741156489]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[138172266320009]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[138249575731337]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 44.79180908203125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -28.99180603027344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -1.5520153045654297
+                }
+            ]
+        },
+        "Instance_[288762509368530]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288758214401234]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288766804335826]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288758214401234]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288771099303122]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288758214401234]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288775394270418]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288753919433938]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288779689237714]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288753919433938]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288783984205010]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288753919433938]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288788279172306]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288753919433938]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288792574139602]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288758214401234]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288796869106898]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288758214401234]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[288801164074194]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[288753919433938]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[41973588824201]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[144930104967362]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[41986473726089]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[144930104967362]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[41999358627977]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[144930104967362]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42003653595273]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[144930104967362]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42029423399049]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42025128431753]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42033718366345]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42025128431753]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42038013333641]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42025128431753]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42042308300937]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42025128431753]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42046603268233]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42025128431753]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42106732810377]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42102437843081]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42111027777673]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42102437843081]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42115322744969]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42102437843081]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42119617712265]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42102437843081]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42123912679561]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42102437843081]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42188337189001]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42184042221705]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42192632156297]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42184042221705]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42196927123593]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42184042221705]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42201222090889]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42184042221705]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42205517058185]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42184042221705]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42265646600329]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42261351633033]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42269941567625]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42261351633033]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42274236534921]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42261351633033]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42278531502217]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42261351633033]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42282826469513]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42261351633033]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42342956011657]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42338661044361]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42347250978953]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42338661044361]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42351545946249]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42338661044361]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42355840913545]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42338661044361]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42360135880841]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42338661044361]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42420265422985]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42415970455689]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -14.603385925292969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42424560390281]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42415970455689]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -6.691764831542969
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42428855357577]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42415970455689]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.1063385009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42433150324873]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42415970455689]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 8.95574951171875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[42437445292169]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/FenceFlat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[42415970455689]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 16.86737060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.0
+                }
+            ]
+        },
+        "Instance_[61653128974473]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -30.902557373046875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 42.35106658935547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.1038093566894531
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -35.12090301513672
+                }
+            ]
+        },
+        "Instance_[61670308843657]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 2.43927001953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -18.399696350097656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.559213638305664
+                }
+            ]
+        },
+        "Instance_[61687488712841]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 47.3731689453125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 62.989646911621094
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -0.8594398498535156
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -106.01068878173828
+                }
+            ]
+        },
+        "Instance_[61704668582025]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -22.927963256835938
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 13.862060546875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.513957977294922
+                }
+            ]
+        },
+        "Instance_[61721848451209]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 27.140716552734375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -90.74535369873048
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.8955802917480469
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 11.337828636169434
+                }
+            ]
+        },
+        "Instance_[61739028320393]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 9.66510009765625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 105.79459381103516
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.9362716674804688
+                }
+            ]
+        },
+        "Instance_[61756208189577]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 46.959716796875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 17.74744415283203
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.1202049255371094
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 0.29739439487457275
+                }
+            ]
+        },
+        "Instance_[61773388058761]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -38.45661926269531
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -21.04485321044922
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5428123474121094
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -117.91375732421876
+                }
+            ]
+        },
+        "Instance_[61790567927945]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 54.53729248046875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -228.77310180664065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 6.644001007080078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 21.859085083007813
+                }
+            ]
+        },
+        "Instance_[61807747797129]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 51.220947265625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -203.6133270263672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 5.2969207763671875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -11.799585342407228
+                }
+            ]
+        },
+        "Instance_[61824927666313]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 51.624267578125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -220.25791931152344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 5.9486846923828125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -167.1705780029297
+                }
+            ]
+        },
+        "Instance_[61842107535497]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 43.999359130859375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -227.57693481445313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 5.401344299316406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 13.417624473571776
+                }
+            ]
+        },
+        "Instance_[99792438562953]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -97.54402160644533
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -160.65048217773438
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.7219276428222656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -107.67840576171876
+                }
+            ]
+        },
+        "Instance_[99809618432137]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -100.1591796875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -240.77749633789065
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 2.700176239013672
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 40.78476333618164
+                }
+            ]
+        },
+        "Instance_[99826798301321]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -88.41921997070313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -208.7873687744141
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 2.2059059143066406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 83.4971694946289
+                }
+            ]
+        },
+        "Instance_[99843978170505]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 1.210054874420166
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 1.210054874420166
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 1.210054874420166
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -109.43258666992188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -166.8076934814453
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.79296875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.10004985332489
+                }
+            ]
+        },
+        "Instance_[99861158039689]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -125.41310119628906
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -118.5633773803711
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.664752960205078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -57.8081169128418
+                }
+            ]
+        },
+        "Instance_[99878337908873]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -119.11065673828124
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -160.0681610107422
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.828227996826172
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 28.16831970214844
+                }
+            ]
+        },
+        "Instance_[99895517778057]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -231.27325439453125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -337.3212890625
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 6.21064567565918
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -52.61312103271485
+                }
+            ]
+        },
+        "Instance_[99912697647241]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -239.6880645751953
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -349.00140380859375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 7.738067626953125
+                }
+            ]
+        },
+        "Instance_[99929877516425]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -220.85140991210935
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -338.69091796875
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 6.064239501953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 19.799943923950195
+                }
+            ]
+        },
+        "Instance_[99947057385609]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -226.83688354492188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -354.7384033203125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 8.41763687133789
+                }
+            ]
+        },
+        "Instance_[99964237254793]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -294.8492126464844
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -46.566036224365234
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5435447692871094
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 70.08059692382813
+                }
+            ]
+        },
+        "Instance_[99981417123977]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/AlmondFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/0",
+                    "value": 1.2970024347305298
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/1",
+                    "value": 1.2970024347305298
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[46144002068617]/Entities/Entity_[454404146500]/Components/EditorColliderComponent/ShapeConfiguration/Cylinder/Configuration/Scale/2",
+                    "value": 1.2970024347305298
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -323.96417236328125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -57.618202209472656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5568161010742188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -41.8004035949707
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 1.1790931224822998
+                }
+            ]
+        },
+        "Instance_[99998596993161]": {
+            "Source": "Assets/Terrain/LargeTerrain/Objects/MappleFar.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[46109642330249]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -342.7722473144531
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -40.09416580200195
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.5541496276855469
+                }
+            ]
+        }
+    }
+}

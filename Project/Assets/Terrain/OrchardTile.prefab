@@ -1,0 +1,2859 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "OrchardTile",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1486911797636977188
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13784769152066608880
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 211117884199268457,
+                "Child Entity Order": [
+                    "Entity_[151759102968002]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4221369441164469393
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 10432336669060996226
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3922794014911467862
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9984788344627113718
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6667873725282945809
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1656244232031589720
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1009873084695289698,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[151681793556674]": {
+            "Id": "Entity_[151681793556674]",
+            "Name": "HeightMap",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            1.731523036956787
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{25E35955-934E-5075-9F81-EF9D8365F474}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/heightmap_gsi.png.streamingimage"
+                        },
+                        "CustomScale": 1,
+                        "ScaleRangeMax": 0.699999988079071
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151686088523970]": {
+            "Id": "Entity_[151686088523970]",
+            "Name": "Roads_mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorMixedGradientComponent": {
+                    "$type": "EditorMixedGradientComponent",
+                    "Id": 1829084366551782686,
+                    "Configuration": {
+                        "Layers": [
+                            {
+                                "Operation": 0,
+                                "Gradient": {
+                                    "GradientId": "Entity_[151754808000706]"
+                                }
+                            },
+                            {
+                                "Operation": 2,
+                                "Gradient": {
+                                    "GradientId": "Entity_[151698973425858]"
+                                }
+                            }
+                        ]
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151690383491266]": {
+            "Id": "Entity_[151690383491266]",
+            "Name": "Light",
+            "Components": {
+                "AZ::Render::EditorAreaLightComponent": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 6954447390301900917,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 4,
+                            "Intensity": 70000.0,
+                            "AttenuationRadius": 836.6600341796875
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5766470853090456188
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8371619217504902255
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15412076235557628181
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10162915252941685955
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3924055854628573761
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11572994187109409082
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5531407868678312871
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14451632820338318793
+                },
+                "LmbrCentral::EditorQuadShapeComponent": {
+                    "$type": "LmbrCentral::EditorQuadShapeComponent",
+                    "Id": 12451787778390105587,
+                    "ShapeColor": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "QuadShape": {
+                        "Configuration": {
+                            "Width": 200.0,
+                            "Height": 200.0
+                        }
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11174287556708127174,
+                    "Parent Entity": "Entity_[151729038196930]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            9.180807113647461
+                        ],
+                        "Rotate": [
+                            180.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151694678458562]": {
+            "Id": "Entity_[151694678458562]",
+            "Name": "Distribution",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            40.0,
+                            40.0,
+                            1.0
+                        ],
+                        "Translate": [
+                            100.97425842285156,
+                            114.89450073242188,
+                            3.463046073913574
+                        ]
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorPerlinGradientComponent": {
+                    "$type": "EditorPerlinGradientComponent",
+                    "Id": 8755483056910517640,
+                    "Configuration": {
+                        "randomSeed": 2087731563,
+                        "amplitude": 1.2000000476837158,
+                        "frequency": 0.9332703948020935
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": ""
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151763397935298]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.9742546081542969,
+                            14.894498825073242,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151698973425858]": {
+            "Id": "Entity_[151698973425858]",
+            "Name": "Roads2_mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            1.731523036956787
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{B5324DCD-7C09-5E57-8A2B-661D814687C1}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/roads2mask_gsi.png.streamingimage"
+                        },
+                        "CustomScale": 1
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151703268393154]": {
+            "Id": "Entity_[151703268393154]",
+            "Name": "Grass",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            1.731523036956787
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{286BADB0-8F32-5953-A8BB-9FCE1FECCE2E}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/grassmask_gsi.png.streamingimage"
+                        }
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151707563360450]": {
+            "Id": "Entity_[151707563360450]",
+            "Name": "PosX",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            40.0,
+                            40.0,
+                            1.0
+                        ],
+                        "Translate": [
+                            100.97425842285156,
+                            114.89450073242188,
+                            3.463046073913574
+                        ]
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorPerlinGradientComponent": {
+                    "$type": "EditorPerlinGradientComponent",
+                    "Id": 8755483056910517640,
+                    "Configuration": {
+                        "randomSeed": 2017850876,
+                        "amplitude": 1.2000000476837158,
+                        "frequency": 5.332365989685059
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": ""
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151763397935298]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.9742546081542969,
+                            14.894498825073242,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151711858327746]": {
+            "Id": "Entity_[151711858327746]",
+            "Name": "Trees",
+            "Components": {
+                "CsvSpawnerEditorComponent": {
+                    "$type": "CsvSpawnerEditorComponent",
+                    "Id": 11521054034421162800,
+                    "CsvAssetId": {
+                        "guid": "{F79FD0B1-E01D-560C-9C8D-D5D3DA4A612F}"
+                    },
+                    "NumberOfEntries": 883,
+                    "SpawnableAssetConfigurations": [
+                        {
+                            "Name": "almond_tree",
+                            "Spawnable": [
+                                {
+                                    "assetId": {
+                                        "guid": "{4DBB61F4-6FA6-5407-BA88-675A687C0EDA}",
+                                        "subId": 2685339242
+                                    },
+                                    "assetHint": "almondtree/almondtree.spawnable"
+                                }
+                            ],
+                            "PositionStdDev": [
+                                0.10000000149011612,
+                                0.019999999552965164,
+                                0.0
+                            ],
+                            "RotationStdDev": [
+                                2.0,
+                                2.0,
+                                3600.0
+                            ],
+                            "ScaleStdDev": 0.05000000074505806,
+                            "PlaceOnTerrain": true
+                        }
+                    ],
+                    "ShowLabels": false
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12984894814211551247
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5937481493329855664
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1176165598253523126,
+                    "Child Entity Order": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10552370823152473405
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10008703434852972770
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 310745983919477892
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7384524170537979628
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10093765981722878108
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17960043514948218740,
+                    "Parent Entity": "Entity_[151759102968002]",
+                    "Transform Data": {
+                        "Translate": [
+                            -100.0,
+                            -100.0,
+                            2.9529476165771484
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151716153295042]": {
+            "Id": "Entity_[151716153295042]",
+            "Name": "TireTracks1_mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            1.731523036956787
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{E1B6AB10-9A21-5E98-96D0-5243DB597CB4}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/tiretracks1mask_gsi.png.streamingimage"
+                        }
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151720448262338]": {
+            "Id": "Entity_[151720448262338]",
+            "Name": "TireTracks2_mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            1.731523036956787
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{0C8BB3D6-E90E-5BCB-A991-D4EFB9B00209}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/tiretracks2mask_gsi.png.streamingimage"
+                        }
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151724743229634]": {
+            "Id": "Entity_[151724743229634]",
+            "Name": "Rotation",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            40.0,
+                            40.0,
+                            1.0
+                        ],
+                        "Translate": [
+                            100.97425842285156,
+                            114.89450073242188,
+                            3.463046073913574
+                        ]
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorPerlinGradientComponent": {
+                    "$type": "EditorPerlinGradientComponent",
+                    "Id": 8755483056910517640,
+                    "Configuration": {
+                        "randomSeed": 1989088793,
+                        "amplitude": 1.2000000476837158,
+                        "frequency": 4.673548221588135
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": ""
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151763397935298]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.9742546081542969,
+                            14.894498825073242,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151729038196930]": {
+            "Id": "Entity_[151729038196930]",
+            "Name": "EnvLight",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9548210892166739830
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 93083003364487494
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11522975628189060411,
+                    "Child Entity Order": [
+                        "Entity_[151690383491266]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15065559245594273963
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1989879625339704771
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13004639521143298697
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2228944603555021239
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11496093311996021153
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11848327390673034544,
+                    "Parent Entity": "Entity_[151759102968002]"
+                }
+            }
+        },
+        "Entity_[151733333164226]": {
+            "Id": "Entity_[151733333164226]",
+            "Name": "Baseline_mask",
+            "Components": {
+                "EditorConstantGradientComponent": {
+                    "$type": "EditorConstantGradientComponent",
+                    "Id": 3797465221251601382,
+                    "Configuration": {
+                        "Value": 0.009999999776482582
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151737628131522]": {
+            "Id": "Entity_[151737628131522]",
+            "Name": "PosY",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            40.0,
+                            40.0,
+                            1.0
+                        ],
+                        "Translate": [
+                            100.97425842285156,
+                            114.89450073242188,
+                            3.463046073913574
+                        ]
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorPerlinGradientComponent": {
+                    "$type": "EditorPerlinGradientComponent",
+                    "Id": 8755483056910517640,
+                    "Configuration": {
+                        "randomSeed": 948122317,
+                        "amplitude": 1.2000000476837158,
+                        "frequency": 4.673548221588135
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": ""
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151763397935298]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.9742546081542969,
+                            14.894498825073242,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151741923098818]": {
+            "Id": "Entity_[151741923098818]",
+            "Name": "Terrain",
+            "Components": {
+                "EditorAxisAlignedBoxShapeComponent": {
+                    "$type": "EditorAxisAlignedBoxShapeComponent",
+                    "Id": 14304988635252224899,
+                    "AxisAlignedBoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                200.0,
+                                200.0,
+                                0.3499999940395355
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14505081312374712840
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 761452830068842158
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1900563582914159908,
+                    "Child Entity Order": [
+                        "Entity_[151681793556674]",
+                        "Entity_[151754808000706]",
+                        "Entity_[151698973425858]",
+                        "Entity_[151686088523970]",
+                        "Entity_[151716153295042]",
+                        "Entity_[151720448262338]",
+                        "Entity_[151733333164226]",
+                        "Entity_[151703268393154]"
+                    ]
+                },
+                "EditorHeightfieldColliderComponent": {
+                    "$type": "EditorHeightfieldColliderComponent",
+                    "Id": 5302135721455136747,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {}
+                            ]
+                        }
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3292963042001879574
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13823770247568699977
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5174557808705479961
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16860713424786677645
+                },
+                "EditorTerrainHeightGradientListComponent": {
+                    "$type": "EditorTerrainHeightGradientListComponent",
+                    "Id": 13083699015470898116,
+                    "Configuration": {
+                        "GradientEntities": [
+                            "Entity_[151681793556674]"
+                        ]
+                    }
+                },
+                "EditorTerrainLayerSpawnerComponent": {
+                    "$type": "EditorTerrainLayerSpawnerComponent",
+                    "Id": 10312731382057964018
+                },
+                "EditorTerrainPhysicsColliderComponent": {
+                    "$type": "EditorTerrainPhysicsColliderComponent",
+                    "Id": 3952021606793547987
+                },
+                "EditorTerrainSurfaceGradientListComponent": {
+                    "$type": "EditorTerrainSurfaceGradientListComponent",
+                    "Id": 6311428136072403374,
+                    "Configuration": {
+                        "Mappings": [
+                            {
+                                "Gradient Entity": "Entity_[151686088523970]",
+                                "Surface Tag": {
+                                    "SurfaceTagCrc": 1975661664
+                                }
+                            },
+                            {
+                                "Gradient Entity": "Entity_[151698973425858]",
+                                "Surface Tag": {
+                                    "SurfaceTagCrc": 3972752858
+                                }
+                            },
+                            {
+                                "Gradient Entity": "Entity_[151716153295042]",
+                                "Surface Tag": {
+                                    "SurfaceTagCrc": 3708613713
+                                }
+                            },
+                            {
+                                "Gradient Entity": "Entity_[151720448262338]",
+                                "Surface Tag": {
+                                    "SurfaceTagCrc": 1141220843
+                                }
+                            },
+                            {
+                                "Gradient Entity": "Entity_[151703268393154]",
+                                "Surface Tag": {
+                                    "SurfaceTagCrc": 2819465203
+                                }
+                            },
+                            {
+                                "Gradient Entity": "Entity_[151733333164226]",
+                                "Surface Tag": {
+                                    "SurfaceTagCrc": 4128887622
+                                }
+                            }
+                        ]
+                    }
+                },
+                "EditorTerrainSurfaceMaterialsListComponent": {
+                    "$type": "EditorTerrainSurfaceMaterialsListComponent",
+                    "Id": 17996824338613144755,
+                    "Configuration": {
+                        "Mappings": [
+                            {
+                                "Surface": {
+                                    "SurfaceTagCrc": 1975661664
+                                },
+                                "MaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{4AD28E51-7E91-5D15-BFEC-A28C65A6F353}"
+                                    },
+                                    "assetHint": "assets/terrain/terrainmaterials/dirt_ground3.azmaterial"
+                                }
+                            },
+                            {
+                                "Surface": {
+                                    "SurfaceTagCrc": 3708613713
+                                },
+                                "MaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{CF64650F-9223-54F5-B7BB-7BA08B4BD146}"
+                                    },
+                                    "assetHint": "assets/terrain/terrainmaterials/tire_tracks2.azmaterial"
+                                }
+                            },
+                            {
+                                "Surface": {
+                                    "SurfaceTagCrc": 1141220843
+                                },
+                                "MaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{5BA31A26-D9E8-5E9D-8D33-14DD399A60AA}"
+                                    },
+                                    "assetHint": "assets/terrain/terrainmaterials/tire_tracks1.azmaterial"
+                                }
+                            },
+                            {
+                                "Surface": {
+                                    "SurfaceTagCrc": 2819465203
+                                },
+                                "MaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{FCDC5B54-BBF9-5B81-8BDE-D2FA6A8C1750}"
+                                    },
+                                    "assetHint": "assets/terrain/terrainmaterials/grass1.azmaterial"
+                                }
+                            },
+                            {
+                                "Surface": {
+                                    "SurfaceTagCrc": 4128887622
+                                },
+                                "MaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{597CD24F-CEBF-502A-B705-B813163DAA23}"
+                                    },
+                                    "assetHint": "assets/terrain/terrainmaterials/dirt_ground4.azmaterial"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8027463512856223863
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5528070277241280699,
+                    "Parent Entity": "Entity_[151759102968002]"
+                }
+            }
+        },
+        "Entity_[151746218066114]": {
+            "Id": "Entity_[151746218066114]",
+            "Name": "Grass",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            3.463046073913574
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{286BADB0-8F32-5953-A8BB-9FCE1FECCE2E}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/grassmask_gsi.png.streamingimage"
+                        },
+                        "SamplingType": 2
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151763397935298]"
+                }
+            }
+        },
+        "Entity_[151750513033410]": {
+            "Id": "Entity_[151750513033410]",
+            "Name": "Vegetation",
+            "Components": {
+                "EditorAxisAlignedBoxShapeComponent": {
+                    "$type": "EditorAxisAlignedBoxShapeComponent",
+                    "Id": 10405063903678017078,
+                    "AxisAlignedBoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                180.0,
+                                180.0,
+                                2.0
+                            ],
+                            "TranslationOffset": [
+                                2.2234325408935547,
+                                3.7773780822753906,
+                                0.0
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15175119921870214016
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4371784140706329647
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1093445521621777520,
+                    "Child Entity Order": [
+                        "Entity_[151763397935298]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14606695873482024028
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4969653224659866909
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10209531597139318189
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6952412106051891411
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5105107335466528900
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6780245357451233423,
+                    "Parent Entity": "Entity_[151759102968002]"
+                }
+            }
+        },
+        "Entity_[151754808000706]": {
+            "Id": "Entity_[151754808000706]",
+            "Name": "Roads1_mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            200.0,
+                            200.0,
+                            0.3499999940395355
+                        ],
+                        "Translate": [
+                            100.0,
+                            100.0,
+                            1.731523036956787
+                        ]
+                    }
+                },
+                "EditorImageGradientComponent": {
+                    "$type": "EditorImageGradientComponent",
+                    "Id": 17976655463311322068,
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    },
+                    "Configuration": {
+                        "StreamingImageAsset": {
+                            "assetId": {
+                                "guid": "{C379C915-7BE2-5288-A0CD-4F1907428AD1}",
+                                "subId": 1000
+                            },
+                            "assetHint": "assets/terrain/terrainmaps/roads1mask_gsi.png.streamingimage"
+                        },
+                        "CustomScale": 1,
+                        "ScaleRangeMax": 0.8999999761581421
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151741923098818]"
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151741923098818]"
+                }
+            }
+        },
+        "Entity_[151759102968002]": {
+            "Id": "Entity_[151759102968002]",
+            "Name": "OrchardTile",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6346168739123032258
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14339911155238619392
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11991562898323892674,
+                    "Child Entity Order": [
+                        "Entity_[151711858327746]",
+                        "Entity_[151750513033410]",
+                        "Entity_[151741923098818]",
+                        "Entity_[151729038196930]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7320291253309296677,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5101753832203050648
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10216203790593822091
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11759508278550816615
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12674909074932151360
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15094635131137724684
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5101753832203050648,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[151763397935298]": {
+            "Id": "Entity_[151763397935298]",
+            "Name": "VegetationCoverage_grass",
+            "Components": {
+                "EditorDescriptorListCombinerComponent": {
+                    "$type": "EditorDescriptorListCombinerComponent",
+                    "Id": 2513969187052434626,
+                    "Configuration": {
+                        "DescriptorProviders": [
+                            "Entity_[151767692902594]"
+                        ]
+                    }
+                },
+                "EditorDescriptorWeightSelectorComponent": {
+                    "$type": "EditorDescriptorWeightSelectorComponent",
+                    "Id": 17210876734724710723,
+                    "Configuration": {
+                        "Gradient": {
+                            "GradientId": "Entity_[151694678458562]",
+                            "InvertInput": true
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10755566922933637138
+                },
+                "EditorDistributionFilterComponent": {
+                    "$type": "EditorDistributionFilterComponent",
+                    "Id": 14415812901182274701,
+                    "Configuration": {
+                        "ThresholdMin": 0.03999999910593033,
+                        "Gradient": {
+                            "GradientId": "Entity_[151746218066114]"
+                        }
+                    }
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5374775501019631531
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1934990206853998524,
+                    "Child Entity Order": [
+                        "Entity_[151767692902594]",
+                        "Entity_[151746218066114]",
+                        "Entity_[151724743229634]",
+                        "Entity_[151707563360450]",
+                        "Entity_[151737628131522]",
+                        "Entity_[151771987869890]",
+                        "Entity_[151694678458562]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14608321547108078314
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2710332099645268661
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13889744960896242610
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7018314181482285191
+                },
+                "EditorPositionModifierComponent": {
+                    "$type": "EditorPositionModifierComponent",
+                    "Id": 2463256002110067695,
+                    "Configuration": {
+                        "AllowOverrides": true,
+                        "RangeMinX": -1.0,
+                        "RangeMaxX": 1.0,
+                        "GradientX": {
+                            "GradientId": "Entity_[151707563360450]",
+                            "InvertInput": true
+                        },
+                        "RangeMinY": -1.0,
+                        "RangeMaxY": 1.0,
+                        "GradientY": {
+                            "GradientId": "Entity_[151737628131522]"
+                        },
+                        "GradientZ": {
+                            "GradientId": ""
+                        }
+                    }
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8483442411392527639,
+                    "Configuration": {
+                        "ShapeEntityId": "Entity_[151750513033410]"
+                    }
+                },
+                "EditorRotationModifierComponent": {
+                    "$type": "EditorRotationModifierComponent",
+                    "Id": 17439826379496889276,
+                    "Configuration": {
+                        "AllowOverrides": true,
+                        "GradientX": {
+                            "GradientId": ""
+                        },
+                        "GradientY": {
+                            "GradientId": ""
+                        },
+                        "GradientZ": {
+                            "GradientId": "Entity_[151724743229634]"
+                        }
+                    }
+                },
+                "EditorScaleModifierComponent": {
+                    "$type": "EditorScaleModifierComponent",
+                    "Id": 11142968337336777918,
+                    "Configuration": {
+                        "AllowOverrides": true,
+                        "RangeMin": 0.10000000149011612,
+                        "Gradient": {
+                            "GradientId": "Entity_[151771987869890]"
+                        }
+                    }
+                },
+                "EditorSpawnerComponent": {
+                    "$type": "{DD96FD51-A86B-48BC-A6AB-89183B538269} EditorSpawnerComponent",
+                    "Id": 13340893667501246666,
+                    "Configuration": {
+                        "Priority": 1
+                    },
+                    "PreviewEntity": "Entity_[151763397935298]"
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1327148678726780700
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10945716602214449848,
+                    "Parent Entity": "Entity_[151750513033410]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            1.731523036956787
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151767692902594]": {
+            "Id": "Entity_[151767692902594]",
+            "Name": "EntityList",
+            "Components": {
+                "EditorDescriptorListComponent": {
+                    "$type": "EditorDescriptorListComponent",
+                    "Id": 4572855243430477472,
+                    "Configuration": {
+                        "Descriptors": [
+                            {
+                                "InstanceSpawner": {
+                                    "SpawnableAsset": {
+                                        "assetId": {
+                                            "guid": "{ACA79E9D-9AD4-54A9-99B3-CFEBFC9216A3}",
+                                            "subId": 3181060454
+                                        },
+                                        "assetHint": "grass/grass_01.spawnable"
+                                    }
+                                },
+                                "Advanced": true,
+                                "ScaleMin": 0.5,
+                                "ScaleMax": 1.5
+                            },
+                            {
+                                "InstanceSpawner": {
+                                    "SpawnableAsset": {
+                                        "assetId": {
+                                            "guid": "{71A9F20D-1D26-518C-B999-8EA40AE23B01}",
+                                            "subId": 680789356
+                                        },
+                                        "assetHint": "shrubs/shrub_02a.spawnable"
+                                    }
+                                },
+                                "Weight": 0.5,
+                                "Advanced": true,
+                                "ScaleOverrideEnabled": true,
+                                "ScaleMax": 1.5
+                            }
+                        ]
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1355730001859858815
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1331602632177610943
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16732108303274930620
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17329709434440588785
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10262476389488368166
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13000164018146697168
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4320269576147971472
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11610207548416638705
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8226712065356712210,
+                    "Parent Entity": "Entity_[151763397935298]",
+                    "Transform Data": {
+                        "Translate": [
+                            -20.0,
+                            -20.0,
+                            -1.731523036956787
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[151771987869890]": {
+            "Id": "Entity_[151771987869890]",
+            "Name": "Scale",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16867121462731232722
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3617770300508425160
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4719525624248615077
+                },
+                "EditorGradientTransformComponent": {
+                    "$type": "EditorGradientTransformComponent",
+                    "Id": 17719004462079188031,
+                    "Configuration": {
+                        "ShapeReference": "",
+                        "Bounds": [
+                            40.0,
+                            40.0,
+                            1.0
+                        ],
+                        "Translate": [
+                            100.97425842285156,
+                            114.89450073242188,
+                            3.463046073913574
+                        ]
+                    }
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3955469282971677701
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6960686686036631790
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13284503952282539641
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3282447099866484331
+                },
+                "EditorPerlinGradientComponent": {
+                    "$type": "EditorPerlinGradientComponent",
+                    "Id": 8755483056910517640,
+                    "Configuration": {
+                        "randomSeed": 1680720582,
+                        "amplitude": 1.2000000476837158,
+                        "frequency": 4.673548221588135
+                    },
+                    "Previewer": {
+                        "BoundsEntity": ""
+                    }
+                },
+                "EditorReferenceShapeComponent": {
+                    "$type": "EditorReferenceShapeComponent",
+                    "Id": 8769567877127618057,
+                    "Configuration": {
+                        "ShapeEntityId": ""
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6569350199094114025
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6963928354625470652,
+                    "Parent Entity": "Entity_[151763397935298]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.9742546081542969,
+                            14.894498825073242,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

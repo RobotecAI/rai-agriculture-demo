@@ -1,0 +1,24 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.factor": 0.20000000298023224,
+        "baseColor.textureMap": "Textures/park_dirt_basecolor.jpg",
+        "baseColor.textureMapUv": "Unwrapped",
+        "metallic.useTexture": false,
+        "normal.factor": 1.159999966621399,
+        "normal.textureMap": "Textures/park_dirt_normal.jpg",
+        "normal.textureMapUv": "Unwrapped",
+        "parallax.factor": 0.04800000041723251,
+        "parallax.offset": -0.014000000432133675,
+        "parallax.quality": "High",
+        "parallax.textureMapUv": "Unwrapped",
+        "parallax.useTexture": false,
+        "roughness.textureMap": "Textures/park_dirt_roughness.jpg",
+        "roughness.textureMapUv": "Unwrapped",
+        "specularF0.factor": 0.0,
+        "terrain.heightOffset": -0.11999999731779099,
+        "uv.tileU": 0.30000001192092896,
+        "uv.tileV": 0.30000001192092896
+    }
+}
