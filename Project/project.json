@@ -22,15 +22,21 @@
     "gem_names": [
         "Atom",
         "CameraFramework",
+        "DebugDraw",
         "ImGui",
         "LandscapeCanvas",
         "RAIAgricultureDemo",
         "Terrain",
         "Vegetation",
+        "PhysX5",
+        "PhysX5Debug",
+        "ROS2>=3.1.0",
+        "ROS2ScriptIntegration",
+        "RemoteTools",
+        "CsvSpawner",
         "RobotecSkyboxAssets",
-        "RobotecAgricultureMachines",
-        "RobotecAgricultureVegetationAssets",
-        "CsvSpawner"
+        "RobotecAgricultureMachines>=2.0.0",
+        "RobotecAgricultureVegetationAssets"
     ],
     "restricted": "RAIAgricultureDemo",
     "engine_version": "2.3.0"

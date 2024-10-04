@@ -192,6 +192,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
                     "value": 66.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
+                    "value": 3
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace",
+                    "value": "tractor1"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
+                    "value": "tractor1"
                 }
             ]
         },
@@ -282,6 +297,21 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
                     "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
+                    "value": 3
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace",
+                    "value": "tractor2"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
+                    "value": "tractor2"
                 }
             ]
         },

@@ -226,7 +226,7 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 1868180134,
                                     "name": "StartupDelay",
-                                    "value": 10.0
+                                    "value": 3.0
                                 }
                             ],
                             "Groups": [
@@ -249,7 +249,7 @@
                                             "$type": "AzFramework::ScriptPropertyNumber",
                                             "id": 1604720501,
                                             "name": "SteeringGain",
-                                            "value": 10.0
+                                            "value": 3.0
                                         },
                                         {
                                             "$type": "AzFramework::ScriptPropertyString",
@@ -263,7 +263,7 @@
                                             "name": "TractorEntityId",
                                             "value": {
                                                 "$type": "EntityId",
-                                                "value": ""
+                                                "value": "Instance_[51405573643237]/Entity_[2144213563765]"
                                             }
                                         },
                                         {
@@ -273,8 +273,8 @@
                                             "value": {
                                                 "$type": "Vector3",
                                                 "value": [
-                                                    0.0,
                                                     1.0,
+                                                    0.0,
                                                     0.0
                                                 ]
                                             }
@@ -286,8 +286,8 @@
                                             "value": {
                                                 "$type": "Vector3",
                                                 "value": [
-                                                    1.0,
                                                     0.0,
+                                                    -1.0,
                                                     0.0
                                                 ]
                                             }
@@ -2075,7 +2075,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 6029888188204447769
+                    "Id": 6029888188204447769,
+                    "Child Entity Order": [
+                        "Instance_[51405573643237]/ContainerEntity"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -2100,7 +2103,19 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6770032875179855373,
-                    "Parent Entity": "Entity_[2071016784718001]"
+                    "Parent Entity": "Entity_[2071016784718001]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            3.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            90.0
+                        ]
+                    }
                 }
             }
         },
@@ -2153,6 +2168,63 @@
                     }
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[51405573643237]": {
+            "Source": "Tractor/TractorSmall_Ackermann.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2096968923509]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2096968923509]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2096968923509]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[409875364293610]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -8.668266296386719
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.2603416442871094
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 5.319815635681152
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": 2.731762409210205
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/1",
+                    "value": 21.97029685974121
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": -97.26801300048828
+                }
+            ]
         }
     }
 }
