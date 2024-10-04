@@ -35,8 +35,10 @@
         "RemoteTools",
         "CsvSpawner",
         "RobotecSkyboxAssets",
+        "RobotecAgricultureDecorationsAssets",
         "RobotecAgricultureMachines>=2.0.0",
-        "RobotecAgricultureVegetationAssets"
+        "RobotecAgricultureVegetationAssets",
+        "RobotecSmallContainersAssets"
     ],
     "restricted": "RAIAgricultureDemo",
     "engine_version": "2.3.0"
