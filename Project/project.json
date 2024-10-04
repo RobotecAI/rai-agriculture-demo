@@ -28,6 +28,7 @@
         "Terrain",
         "Vegetation",
         "RobotecSkyboxAssets",
+        "RobotecAgricultureMachines",
         "RobotecAgricultureVegetationAssets",
         "CsvSpawner"
     ],

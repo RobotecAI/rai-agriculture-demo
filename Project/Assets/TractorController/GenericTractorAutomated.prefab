@@ -1,0 +1,2158 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "GenericTractorAutomated",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 757277129756770459
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13693428270534706692
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16707029666469966134,
+                "Child Entity Order": [
+                    "Entity_[2071016784718001]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13836224881392731120
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 17265626378015243686
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 340375059436247301
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13813255747159063879
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17051968945505809698
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11133831110958471584
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14064216649111884667,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2071016784718001]": {
+            "Id": "Entity_[2071016784718001]",
+            "Name": "GenericTractorAutomated",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2383525951719874719
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11373725181868008735
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3784669080470329685,
+                    "Child Entity Order": [
+                        "Entity_[409875364293610]",
+                        "Entity_[253772436829698]",
+                        "Entity_[253768141862402]",
+                        "Entity_[253789616698882]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6315326651345466708,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8172122829691119823
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17012247882229909196
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13766406959290534709
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1223183037022318097
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8126468602116046724
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8172122829691119823,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        },
+        "Entity_[253768141862402]": {
+            "Id": "Entity_[253768141862402]",
+            "Name": "Trajectories",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16785770168289835551
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10759298964026315630
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9407212907636711332,
+                    "Child Entity Order": [
+                        "Entity_[253798206633474]",
+                        "Entity_[253785321731586]",
+                        "Entity_[253776731796994]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7310282741306432118
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16716043499106235546
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7349015799590291982
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5838414721665826906
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12227832727551476960
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11492613192654054807,
+                    "Parent Entity": "Entity_[2071016784718001]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            1.7999999523162842
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[253772436829698]": {
+            "Id": "Entity_[253772436829698]",
+            "Name": "TractorController",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 69976425003539028
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15697921993955481274
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8756632890132682546
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4790320865873146349,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3821488205776815275
+                        },
+                        {
+                            "ComponentId": 7636228981400698933,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5825089989486276568
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14386046196591440459
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4082327689282449173
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18068754206115531723
+                },
+                "ScriptEditorComponent": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 7636228981400698933,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyString",
+                                    "id": 3269582454,
+                                    "name": "ControlNamespace",
+                                    "value": "tractor"
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyBoolean",
+                                    "id": 1822771111,
+                                    "name": "Debug",
+                                    "value": true
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 1868180134,
+                                    "name": "StartupDelay",
+                                    "value": 10.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "Tractor",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 1757241569,
+                                            "name": "LookAhead",
+                                            "value": 1.0
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 254213878,
+                                            "name": "Speed",
+                                            "value": 1.0
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 1604720501,
+                                            "name": "SteeringGain",
+                                            "value": 10.0
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyString",
+                                            "id": 2638274075,
+                                            "name": "Topic",
+                                            "value": "ackermann_vel"
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1788293387,
+                                            "name": "TractorEntityId",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": ""
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2157436617,
+                                            "name": "TractorForwardAxis",
+                                            "value": {
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    0.0,
+                                                    1.0,
+                                                    0.0
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 3999218335,
+                                            "name": "TractorRightAxis",
+                                            "value": {
+                                                "$type": "Vector3",
+                                                "value": [
+                                                    1.0,
+                                                    0.0,
+                                                    0.0
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Paths",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 325625517,
+                                            "name": "Path1",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[253798206633474]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2321676055,
+                                            "name": "Path2",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[253785321731586]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 4251371393,
+                                            "name": "Path3",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[253776731796994]"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Collisions",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2942221343,
+                                            "name": "Collision1",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[253781026764290]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 911732133,
+                                            "name": "Collision2",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[253793911666178]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1095818547,
+                                            "name": "Collision3",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[543730825016378]"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{712C969B-1A64-55A6-98D0-22EF7891F1B9}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/tractorcontroller/tractorcontroller.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{712C969B-1A64-55A6-98D0-22EF7891F1B9}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/tractorcontroller/tractorcontroller.luac"
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3821488205776815275,
+                    "Parent Entity": "Entity_[2071016784718001]"
+                }
+            }
+        },
+        "Entity_[253776731796994]": {
+            "Id": "Entity_[253776731796994]",
+            "Name": "Trajectory3",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18311564388347586465
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12584603276030319478
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1888745981879610689
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1982173737309332763,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9360542623239510269
+                        },
+                        {
+                            "ComponentId": 7095130756891985391,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16116562389626480707,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9216690896480903965
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11318580787438147506
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5648020954255352455
+                },
+                "EditorSplineComponent": {
+                    "$type": "EditorSplineComponent",
+                    "Id": 7095130756891985391,
+                    "Configuration": {
+                        "Spline": {
+                            "$type": "BezierSpline",
+                            "Vertices": {
+                                "Vertices": [
+                                    {},
+                                    [
+                                        1.0,
+                                        3.5,
+                                        0.0
+                                    ],
+                                    [
+                                        3.5,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    [
+                                        7.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        10.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        20.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        69.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        79.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        82.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        85.5,
+                                        8.0,
+                                        0.0
+                                    ],
+                                    [
+                                        88.0,
+                                        10.5,
+                                        0.0
+                                    ],
+                                    [
+                                        89.0,
+                                        14.0,
+                                        0.0
+                                    ],
+                                    [
+                                        88.0,
+                                        17.5,
+                                        0.0
+                                    ],
+                                    [
+                                        85.5,
+                                        20.0,
+                                        0.0
+                                    ],
+                                    [
+                                        82.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        79.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        69.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        20.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        10.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        7.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        3.5,
+                                        22.0,
+                                        0.0
+                                    ],
+                                    [
+                                        1.0,
+                                        24.5,
+                                        0.0
+                                    ],
+                                    [
+                                        0.0,
+                                        28.0,
+                                        0.0
+                                    ]
+                                ]
+                            },
+                            "Bezier Data": [
+                                {
+                                    "Forward": [
+                                        0.18994320929050446,
+                                        1.1983921527862549,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        1.5938177108764648,
+                                        4.517972946166992,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        0.388627290725708,
+                                        2.451932430267334,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        4.548067569732666,
+                                        6.611372947692871,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        2.4820268154144287,
+                                        5.406182289123535,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        7.988371849060059,
+                                        7.15205717086792,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        5.80075740814209,
+                                        6.8155012130737305,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        13.333333969116211,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        9.0,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        36.333335876464844,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        16.66666603088379,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        72.33333587646484,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        52.666664123535156,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        80.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        75.66666412353516,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        83.1992416381836,
+                                        7.1844987869262695,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        81.01162719726563,
+                                        6.84794282913208,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        86.51797485351563,
+                                        8.593817710876465,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        84.45193481445313,
+                                        7.388627052307129,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        88.61137390136719,
+                                        11.548067092895508,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        87.40618133544922,
+                                        9.482027053833008,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        89.0,
+                                        15.21335220336914,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        89.0,
+                                        12.78664779663086,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        87.40618133544922,
+                                        18.517972946166992,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        88.61137390136719,
+                                        16.451932907104492,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        84.45193481445313,
+                                        20.611371994018555,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        86.51797485351563,
+                                        19.40618324279785,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        81.01162719726563,
+                                        21.152057647705078,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        83.1992416381836,
+                                        20.815500259399414,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        75.66666412353516,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        80.0,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        52.666664123535156,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        72.33333587646484,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        16.66666603088379,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        36.333335876464844,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        9.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        13.333333969116211,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        5.80075740814209,
+                                        21.184499740600586,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        7.988371849060059,
+                                        20.847942352294922,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        2.4820268154144287,
+                                        22.59381675720215,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        4.548067569732666,
+                                        21.388628005981445,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        0.388627290725708,
+                                        25.548067092895508,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        1.5938177108764648,
+                                        23.482027053833008,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        0.0,
+                                        28.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        0.18994317948818207,
+                                        26.801607131958008,
+                                        0.0
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorTubeShapeComponent": {
+                    "$type": "EditorTubeShapeComponent",
+                    "Id": 16116562389626480707,
+                    "GameView": true,
+                    "ShapeColor": [
+                        0.0,
+                        1.0,
+                        0.03332570567727089,
+                        1.0
+                    ],
+                    "TubeShape": {
+                        "Radius": 0.20000000298023224,
+                        "VariableRadius": {
+                            "Elements": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "TubeShapeMeshConfig": {
+                        "ShapeConfig": {
+                            "DrawColor": [
+                                0.0,
+                                1.0,
+                                0.03332570567727089
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10085759724191229749
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9360542623239510269,
+                    "Parent Entity": "Entity_[253768141862402]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            56.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[253781026764290]": {
+            "Id": "Entity_[253781026764290]",
+            "Name": "Obstacle1",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13351926342158315384
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10897582656811403415
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15386855614676380519
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17701976661622312939
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1656137725798620895
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13821244973157729376
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9748307530740887619
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18023805058541828027
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17483593533297527502,
+                    "Parent Entity": "Entity_[253789616698882]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -20.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[253785321731586]": {
+            "Id": "Entity_[253785321731586]",
+            "Name": "Trajectory2",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18311564388347586465
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12584603276030319478
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1888745981879610689
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1982173737309332763,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9360542623239510269
+                        },
+                        {
+                            "ComponentId": 7095130756891985391,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16116562389626480707,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9216690896480903965
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11318580787438147506
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5648020954255352455
+                },
+                "EditorSplineComponent": {
+                    "$type": "EditorSplineComponent",
+                    "Id": 7095130756891985391,
+                    "Configuration": {
+                        "Spline": {
+                            "$type": "BezierSpline",
+                            "Vertices": {
+                                "Vertices": [
+                                    {},
+                                    [
+                                        1.0,
+                                        3.5,
+                                        0.0
+                                    ],
+                                    [
+                                        3.5,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    [
+                                        7.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        10.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        20.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        69.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        79.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        82.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        85.5,
+                                        8.0,
+                                        0.0
+                                    ],
+                                    [
+                                        88.0,
+                                        10.5,
+                                        0.0
+                                    ],
+                                    [
+                                        89.0,
+                                        14.0,
+                                        0.0
+                                    ],
+                                    [
+                                        88.0,
+                                        17.5,
+                                        0.0
+                                    ],
+                                    [
+                                        85.5,
+                                        20.0,
+                                        0.0
+                                    ],
+                                    [
+                                        82.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        79.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        69.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        20.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        10.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        7.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        3.5,
+                                        22.0,
+                                        0.0
+                                    ],
+                                    [
+                                        1.0,
+                                        24.5,
+                                        0.0
+                                    ],
+                                    [
+                                        0.0,
+                                        28.0,
+                                        0.0
+                                    ]
+                                ]
+                            },
+                            "Bezier Data": [
+                                {
+                                    "Forward": [
+                                        0.18994320929050446,
+                                        1.1983921527862549,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        1.5938177108764648,
+                                        4.517972946166992,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        0.388627290725708,
+                                        2.451932430267334,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        4.548067569732666,
+                                        6.611372947692871,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        2.4820268154144287,
+                                        5.406182289123535,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        7.988371849060059,
+                                        7.15205717086792,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        5.80075740814209,
+                                        6.8155012130737305,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        13.333333969116211,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        9.0,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        36.333335876464844,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        16.66666603088379,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        72.33333587646484,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        52.666664123535156,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        80.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        75.66666412353516,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        83.1992416381836,
+                                        7.1844987869262695,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        81.01162719726563,
+                                        6.84794282913208,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        86.51797485351563,
+                                        8.593817710876465,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        84.45193481445313,
+                                        7.388627052307129,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        88.61137390136719,
+                                        11.548067092895508,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        87.40618133544922,
+                                        9.482027053833008,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        89.0,
+                                        15.21335220336914,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        89.0,
+                                        12.78664779663086,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        87.40618133544922,
+                                        18.517972946166992,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        88.61137390136719,
+                                        16.451932907104492,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        84.45193481445313,
+                                        20.611371994018555,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        86.51797485351563,
+                                        19.40618324279785,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        81.01162719726563,
+                                        21.152057647705078,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        83.1992416381836,
+                                        20.815500259399414,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        75.66666412353516,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        80.0,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        52.666664123535156,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        72.33333587646484,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        16.66666603088379,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        36.333335876464844,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        9.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        13.333333969116211,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        5.80075740814209,
+                                        21.184499740600586,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        7.988371849060059,
+                                        20.847942352294922,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        2.4820268154144287,
+                                        22.59381675720215,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        4.548067569732666,
+                                        21.388628005981445,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        0.388627290725708,
+                                        25.548067092895508,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        1.5938177108764648,
+                                        23.482027053833008,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        0.0,
+                                        28.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        0.18994317948818207,
+                                        26.801607131958008,
+                                        0.0
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorTubeShapeComponent": {
+                    "$type": "EditorTubeShapeComponent",
+                    "Id": 16116562389626480707,
+                    "GameView": true,
+                    "ShapeColor": [
+                        0.0,
+                        1.0,
+                        0.03332570567727089,
+                        1.0
+                    ],
+                    "TubeShape": {
+                        "Radius": 0.20000000298023224,
+                        "VariableRadius": {
+                            "Elements": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "TubeShapeMeshConfig": {
+                        "ShapeConfig": {
+                            "DrawColor": [
+                                0.0,
+                                1.0,
+                                0.03332570567727089
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10085759724191229749
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9360542623239510269,
+                    "Parent Entity": "Entity_[253768141862402]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            28.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[253789616698882]": {
+            "Id": "Entity_[253789616698882]",
+            "Name": "Obstacles",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9929954332614441975
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1790081305216947248
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13800863626986308737,
+                    "Child Entity Order": [
+                        "Entity_[253781026764290]",
+                        "Entity_[253793911666178]",
+                        "Entity_[543730825016378]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12907336662407549378
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5778015671822034353
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17216011136109293610
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12245775356948727340
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11851001938230995988
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7658743309188578311,
+                    "Parent Entity": "Entity_[2071016784718001]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            1.7999999523162842
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[253793911666178]": {
+            "Id": "Entity_[253793911666178]",
+            "Name": "Obstacle2",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15344917664150724778
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3573169562306416635
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13079440520224038644
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4358420884837771896
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 942076352321559073
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5336395370197174456
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12324357017879681124
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2419019373243327710
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8585092779224560561,
+                    "Parent Entity": "Entity_[253789616698882]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -20.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[253798206633474]": {
+            "Id": "Entity_[253798206633474]",
+            "Name": "Trajectory1",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18311564388347586465
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12584603276030319478
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1888745981879610689
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1982173737309332763,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9360542623239510269
+                        },
+                        {
+                            "ComponentId": 7095130756891985391,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16116562389626480707,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9216690896480903965
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11318580787438147506
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5648020954255352455
+                },
+                "EditorSplineComponent": {
+                    "$type": "EditorSplineComponent",
+                    "Id": 7095130756891985391,
+                    "Configuration": {
+                        "Spline": {
+                            "$type": "BezierSpline",
+                            "Vertices": {
+                                "Vertices": [
+                                    {},
+                                    [
+                                        1.0,
+                                        3.5,
+                                        0.0
+                                    ],
+                                    [
+                                        3.5,
+                                        6.0,
+                                        0.0
+                                    ],
+                                    [
+                                        7.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        10.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        20.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        69.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        79.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        82.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    [
+                                        85.5,
+                                        8.0,
+                                        0.0
+                                    ],
+                                    [
+                                        88.0,
+                                        10.5,
+                                        0.0
+                                    ],
+                                    [
+                                        89.0,
+                                        14.0,
+                                        0.0
+                                    ],
+                                    [
+                                        88.0,
+                                        17.5,
+                                        0.0
+                                    ],
+                                    [
+                                        85.5,
+                                        20.0,
+                                        0.0
+                                    ],
+                                    [
+                                        82.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        79.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        69.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        20.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        10.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        7.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    [
+                                        3.5,
+                                        22.0,
+                                        0.0
+                                    ],
+                                    [
+                                        1.0,
+                                        24.5,
+                                        0.0
+                                    ],
+                                    [
+                                        0.0,
+                                        28.0,
+                                        0.0
+                                    ]
+                                ]
+                            },
+                            "Bezier Data": [
+                                {
+                                    "Forward": [
+                                        0.18994320929050446,
+                                        1.1983921527862549,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        1.5938177108764648,
+                                        4.517972946166992,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        0.388627290725708,
+                                        2.451932430267334,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        4.548067569732666,
+                                        6.611372947692871,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        2.4820268154144287,
+                                        5.406182289123535,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        7.988371849060059,
+                                        7.15205717086792,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        5.80075740814209,
+                                        6.8155012130737305,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        13.333333969116211,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        9.0,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        36.333335876464844,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        16.66666603088379,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        72.33333587646484,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        52.666664123535156,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        80.0,
+                                        7.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        75.66666412353516,
+                                        7.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        83.1992416381836,
+                                        7.1844987869262695,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        81.01162719726563,
+                                        6.84794282913208,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        86.51797485351563,
+                                        8.593817710876465,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        84.45193481445313,
+                                        7.388627052307129,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        88.61137390136719,
+                                        11.548067092895508,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        87.40618133544922,
+                                        9.482027053833008,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        89.0,
+                                        15.21335220336914,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        89.0,
+                                        12.78664779663086,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        87.40618133544922,
+                                        18.517972946166992,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        88.61137390136719,
+                                        16.451932907104492,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        84.45193481445313,
+                                        20.611371994018555,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        86.51797485351563,
+                                        19.40618324279785,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        81.01162719726563,
+                                        21.152057647705078,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        83.1992416381836,
+                                        20.815500259399414,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        75.66666412353516,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        80.0,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        52.666664123535156,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        72.33333587646484,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        16.66666603088379,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        36.333335876464844,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        9.0,
+                                        21.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        13.333333969116211,
+                                        21.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        5.80075740814209,
+                                        21.184499740600586,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        7.988371849060059,
+                                        20.847942352294922,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        2.4820268154144287,
+                                        22.59381675720215,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        4.548067569732666,
+                                        21.388628005981445,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        0.388627290725708,
+                                        25.548067092895508,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        1.5938177108764648,
+                                        23.482027053833008,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "Forward": [
+                                        0.0,
+                                        28.0,
+                                        0.0
+                                    ],
+                                    "Back": [
+                                        0.18994317948818207,
+                                        26.801607131958008,
+                                        0.0
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorTubeShapeComponent": {
+                    "$type": "EditorTubeShapeComponent",
+                    "Id": 16116562389626480707,
+                    "GameView": true,
+                    "ShapeColor": [
+                        0.0,
+                        1.0,
+                        0.03332570567727089,
+                        1.0
+                    ],
+                    "TubeShape": {
+                        "Radius": 0.20000000298023224,
+                        "VariableRadius": {
+                            "Elements": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "TubeShapeMeshConfig": {
+                        "ShapeConfig": {
+                            "DrawColor": [
+                                0.0,
+                                1.0,
+                                0.03332570567727089
+                            ]
+                        }
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10085759724191229749
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9360542623239510269,
+                    "Parent Entity": "Entity_[253768141862402]"
+                }
+            }
+        },
+        "Entity_[409875364293610]": {
+            "Id": "Entity_[409875364293610]",
+            "Name": "Tractor",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17627121957435109257
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16972326175445610451
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6029888188204447769
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16945161765982775031
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12737599950536682919
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5319722811585514649
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6034162974909682161
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7218192782011746285
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6770032875179855373,
+                    "Parent Entity": "Entity_[2071016784718001]"
+                }
+            }
+        },
+        "Entity_[543730825016378]": {
+            "Id": "Entity_[543730825016378]",
+            "Name": "Obstacle3",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17455965172568739709
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13334802051672193312
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17456283677339278541
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4024871748543411393
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13532387032796404720
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13537282927193794110
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3555752884288520453
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2238217929769433275
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9155391703735694327,
+                    "Parent Entity": "Entity_[253789616698882]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -20.0
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

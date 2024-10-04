@@ -19,7 +19,9 @@
                     "Instance_[33512153838704]/ContainerEntity",
                     "Instance_[49893159105648]/ContainerEntity",
                     "Instance_[5601123711445]/ContainerEntity",
-                    "Instance_[14191058303445]/ContainerEntity"
+                    "Instance_[14191058303445]/ContainerEntity",
+                    "Instance_[241926388190473]/ContainerEntity",
+                    "Instance_[432416777702665]/ContainerEntity"
                 ]
             },
             "EditorInspectorComponent": {
@@ -173,6 +175,26 @@
                 }
             ]
         },
+        "Instance_[241926388190473]": {
+            "Source": "Assets/TractorController/GenericTractorAutomated.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 59.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 66.5
+                }
+            ]
+        },
         "Instance_[33512153838704]": {
             "Source": "Assets/Terrain/LargeTerrain.prefab",
             "Patches": [
@@ -180,6 +202,86 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[340953507857]"
+                }
+            ]
+        },
+        "Instance_[432416777702665]": {
+            "Source": "Assets/TractorController/GenericTractorAutomated.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 59.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 73.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/ShapeColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/ShapeColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/ShapeColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/ShapeColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
+                    "value": 0.0
                 }
             ]
         },
@@ -235,6 +337,3538 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[151681793556674]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
                     "value": 2.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/882"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/881"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/880"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/879"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/878"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/877"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/876"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/875"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/874"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/873"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/872"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/871"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/870"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/869"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/868"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/867"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/866"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/865"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/864"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/863"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/862"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/861"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/860"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/859"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/858"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/857"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/856"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/855"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/854"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/853"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/852"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/851"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/850"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/849"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/848"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/847"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/846"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/845"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/844"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/843"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/842"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/841"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/840"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/839"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/838"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/837"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/836"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/835"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/834"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/833"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/832"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/831"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/830"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/829"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/828"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/827"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/826"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/825"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/824"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/823"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/822"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/821"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/820"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/819"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/818"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/817"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/816"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/815"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/814"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/813"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/812"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/811"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/810"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/809"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/808"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/807"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/806"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/805"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/804"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/803"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/802"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/801"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/800"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/799"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/798"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/797"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/796"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/795"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/794"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/793"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/792"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/791"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/790"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/789"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/788"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/787"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/786"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/785"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/784"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/783"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/782"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/781"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/780"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/779"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/778"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/777"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/776"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/775"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/774"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/773"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/772"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/771"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/770"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/769"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/768"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/767"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/766"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/765"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/764"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/763"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/762"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/761"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/760"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/759"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/758"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/757"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/756"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/755"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/754"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/753"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/752"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/751"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/750"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/749"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/748"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/747"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/746"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/745"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/744"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/743"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/742"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/741"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/740"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/739"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/738"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/737"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/736"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/735"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/734"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/733"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/732"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/731"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/730"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/729"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/728"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/727"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/726"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/725"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/724"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/723"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/722"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/721"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/720"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/719"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/718"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/717"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/716"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/715"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/714"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/713"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/712"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/711"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/710"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/709"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/708"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/707"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/706"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/705"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/704"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/703"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/702"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/701"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/700"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/699"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/698"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/697"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/696"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/695"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/694"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/693"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/692"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/691"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/690"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/689"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/688"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/687"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/686"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/685"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/684"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/683"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/682"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/681"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/680"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/679"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/678"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/677"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/676"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/675"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/674"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/673"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/672"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/671"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/670"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/669"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/668"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/667"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/666"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/665"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/664"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/663"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/662"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/661"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/660"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/659"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/658"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/657"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/656"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/655"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/654"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/653"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/652"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/651"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/650"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/649"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/648"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/647"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/646"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/645"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/644"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/643"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/642"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/641"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/640"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/639"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/638"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/637"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/636"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/635"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/634"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/633"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/632"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/631"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/630"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/629"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/628"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/627"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/626"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/625"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/624"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/623"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/622"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/621"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/620"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/619"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/618"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/617"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/616"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/615"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/614"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/613"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/612"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/611"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/610"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/609"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/608"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/607"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/606"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/605"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/604"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/603"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/602"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/601"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/600"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/599"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/598"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/597"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/596"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/595"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/594"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/593"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/592"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/591"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/590"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/589"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/588"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/587"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/586"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/585"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/584"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/583"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/582"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/581"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/580"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/579"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/578"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/577"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/576"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/575"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/574"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/573"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/572"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/571"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/570"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/569"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/568"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/567"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/566"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/565"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/564"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/563"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/562"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/561"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/560"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/559"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/558"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/557"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/556"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/555"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/554"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/553"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/552"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/551"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/550"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/549"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/548"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/547"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/546"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/545"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/544"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/543"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/542"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/541"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/540"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/539"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/538"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/537"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/536"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/535"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/534"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/533"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/532"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/531"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/530"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/529"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/528"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/527"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/526"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/525"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/524"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/523"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/522"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/521"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/520"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/519"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/518"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/517"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/516"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/515"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/514"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/513"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/512"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/511"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/510"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/509"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/508"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/507"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/506"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/505"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/504"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/503"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/502"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/501"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/500"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/499"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/498"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/497"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/496"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/495"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/494"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/493"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/492"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/491"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/490"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/489"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/488"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/487"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/486"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/485"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/484"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/483"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/482"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/481"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/480"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/479"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/478"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/477"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/476"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/475"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/474"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/473"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/472"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/471"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/470"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/469"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/468"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/467"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/466"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/465"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/464"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/463"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/462"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/461"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/460"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/459"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/458"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/457"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/456"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/455"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/454"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/453"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/452"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/451"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/450"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/449"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/448"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/447"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/446"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/445"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/444"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/443"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/442"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/441"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/440"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/439"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/438"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/437"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/436"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/435"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/434"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/433"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/432"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/431"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/430"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/429"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/428"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/427"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/426"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/425"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/424"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/423"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/422"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/421"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/420"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/419"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/418"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/417"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/416"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/415"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/414"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/413"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/412"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/411"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/410"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/409"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/408"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/407"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/406"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/405"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/404"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/403"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/402"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/401"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/400"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/399"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/398"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/397"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/396"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/395"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/394"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/393"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/392"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/391"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/390"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/389"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/388"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/387"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/386"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/385"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/384"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/383"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/382"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/381"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/380"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/379"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/378"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/377"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/376"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/375"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/374"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/373"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/372"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/371"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/370"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/369"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/368"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/367"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/366"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/365"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/364"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/363"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/362"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/361"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/360"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/359"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/358"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/357"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/356"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/355"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/354"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/353"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/352"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/351"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/350"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/349"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/348"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/347"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/346"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/345"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/344"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/343"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/342"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/341"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/340"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/339"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/338"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/337"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/336"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/335"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/334"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/333"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/332"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/331"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/330"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/329"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/328"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/327"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/326"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/325"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/324"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/323"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/322"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/321"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/320"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/319"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/318"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/317"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/316"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/315"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/314"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/313"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/312"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/311"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/310"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/309"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/308"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/307"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/306"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/305"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/304"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/303"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/302"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/301"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/300"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/299"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/298"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/297"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/296"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/295"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/294"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/293"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/292"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/291"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/290"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/289"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/288"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/287"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/286"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/285"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/284"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/283"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/282"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/281"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/280"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/279"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/278"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/277"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/276"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/275"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/274"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/273"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/272"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/271"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/270"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/269"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/268"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/267"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/266"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/265"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/264"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/263"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/262"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/261"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/260"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/259"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/258"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/257"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/256"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/255"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/254"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/253"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/252"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/251"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/250"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/249"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/248"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/247"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/246"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/245"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/244"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/243"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/242"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/241"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/240"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/239"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/238"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/237"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/236"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/235"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/234"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/233"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/232"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/231"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/230"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/229"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/228"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/227"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/226"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/225"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/224"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/223"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/222"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/221"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/220"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/219"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/218"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/217"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/216"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/215"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/214"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/213"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/212"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/211"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/210"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/209"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/208"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/207"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/206"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/205"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/204"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/203"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/202"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/201"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/200"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/199"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/198"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/197"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/196"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/195"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/194"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/193"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/192"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/191"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/190"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/189"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/188"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/187"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/186"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/185"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/184"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/183"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/182"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/181"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/180"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/179"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/178"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/177"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/176"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/175"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/174"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/173"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/172"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/171"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/170"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/169"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/168"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/167"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/166"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/165"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/164"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/163"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/162"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/161"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/160"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/159"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/158"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/157"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/156"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/155"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/154"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/153"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/152"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/151"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/150"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/149"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/148"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/147"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/146"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/145"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/144"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/143"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/142"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/141"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/140"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/139"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/138"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/137"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/136"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/135"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/134"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/133"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/132"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/131"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/130"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/129"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/128"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/127"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/126"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/125"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/124"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/123"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/122"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/121"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/120"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/119"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/118"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/117"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/116"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/115"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/114"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/113"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/112"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/111"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/110"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/109"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/108"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/107"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/106"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/105"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/104"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/103"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/102"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/101"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/100"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/99"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/98"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/97"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/96"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/95"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/94"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/93"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/92"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/91"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/90"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/89"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/88"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/87"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/86"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/85"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/84"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/83"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/82"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/81"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/80"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/79"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/78"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/77"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/76"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/75"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/74"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/73"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/72"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/71"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/70"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/69"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/68"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/67"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/66"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/65"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/64"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/63"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/62"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/61"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/60"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/59"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/58"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/57"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/56"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/55"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/54"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/53"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/52"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/51"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/50"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/49"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/48"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/47"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/46"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/45"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/44"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/43"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/42"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/41"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/40"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/39"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/38"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/37"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/36"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/35"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/34"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/33"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/32"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/31"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/30"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/29"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/28"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/27"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/26"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/25"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/24"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/23"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/8"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/7"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/6"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/5"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/4"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/3"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/2"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/1"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/0"
                 }
             ]
         },
