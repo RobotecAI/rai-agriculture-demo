@@ -22,7 +22,8 @@
                     "Instance_[14191058303445]/ContainerEntity",
                     "Instance_[241926388190473]/ContainerEntity",
                     "Instance_[432416777702665]/ContainerEntity",
-                    "Entity_[436856558185115]"
+                    "Entity_[436856558185115]",
+                    "Entity_[596052605927933]"
                 ]
             },
             "EditorInspectorComponent": {
@@ -92,6 +93,130 @@
         }
     },
     "Entities": {
+        "Entity_[144265396507945]": {
+            "Id": "Entity_[144265396507945]",
+            "Name": "Collider",
+            "Components": {
+                "EditorColliderComponent": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16202260923855561543,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            -0.4000000059604645,
+                            0.07500000298023224
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                2.0,
+                                2.0,
+                                0.15000000596046448
+                            ]
+                        }
+                    }
+                },
+                "EditorColliderComponent_2": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 3764704927016750703,
+                    "ColliderConfiguration": {
+                        "Rotation": [
+                            0.7071067690849304,
+                            0.0,
+                            0.0,
+                            0.7071067094802856
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 2
+                    }
+                },
+                "EditorColliderComponent_3": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4690477454727826761,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            1.100000023841858,
+                            -0.699999988079071,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.7071068286895752,
+                            0.0,
+                            0.0,
+                            0.7071067094802856
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 2
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3144270598922845634
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10839468015005751483
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10932415970813872996
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 682286222345991287
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13457517538058081873
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5721202898319194010
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12342726848049900774
+                },
+                "EditorStaticRigidBodyComponent": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14064177489471014072
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9850416229859061346
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8303273259987681914,
+                    "Parent Entity": "Entity_[473033067719323]"
+                }
+            }
+        },
         "Entity_[1699176301199869]": {
             "Id": "Entity_[1699176301199869]",
             "Name": "Obstacle4Camera",
@@ -548,7 +673,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 5510301755376793965
+                    "Id": 5510301755376793965,
+                    "Child Entity Order": [
+                        "Instance_[80303816353719]/ContainerEntity",
+                        "Entity_[144265396507945]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -578,7 +707,7 @@
                         "Translate": [
                             115.9469985961914,
                             109.11000061035156,
-                            2.0
+                            1.899999976158142
                         ]
                     }
                 }
@@ -598,7 +727,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2825622541879339108
+                    "Id": 2825622541879339108,
+                    "Child Entity Order": [
+                        "Instance_[287128893674793]/ContainerEntity"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -628,7 +760,7 @@
                         "Translate": [
                             99.0,
                             129.5,
-                            1.7000000476837158
+                            2.0
                         ]
                     }
                 }
@@ -1020,7 +1152,7 @@
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[871654655643]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
-                    "value": -5.683932768896226e-10
+                    "value": -5.683932768896223e-10
                 },
                 {
                     "op": "replace",
@@ -1115,7 +1247,7 @@
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[871654655643]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
-                    "value": -5.683932768896226e-10
+                    "value": -5.683932768896223e-10
                 },
                 {
                     "op": "replace",
@@ -1244,11 +1376,6 @@
                 },
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
-                    "value": "tractor1"
-                },
-                {
-                    "op": "replace",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorDisabledCompositionComponent/DisabledComponents",
                     "value": {
                         "EditorCameraComponent": {
@@ -1297,6 +1424,51 @@
                 {
                     "op": "remove",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/FlyCameraInputComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 51.16600036621094
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 7.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 38.4640007019043
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 63.12300109863281
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
+                    "value": "tractor1"
+                }
+            ]
+        },
+        "Instance_[287128893674793]": {
+            "Source": "Assets/CatController/EscapingCat.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[483001686813339]"
                 }
             ]
         },
@@ -1400,11 +1572,6 @@
                 },
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
-                    "value": "tractor2"
-                },
-                {
-                    "op": "replace",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorDisabledCompositionComponent/DisabledComponents",
                     "value": {
                         "EditorCameraComponent": {
@@ -1453,6 +1620,41 @@
                 {
                     "op": "remove",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/FlyCameraInputComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 75.98100280761719
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 21.047000885009766
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 54.92900085449219
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 34.95500183105469
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
+                    "value": "tractor2"
                 }
             ]
         },
@@ -5088,6 +5290,39 @@
                 }
             ]
         },
+        "Instance_[80303816353719]": {
+            "Source": "AlmondTree/AlmondTree.prefab",
+            "Patches": [
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[454404146500]/Components/EditorColliderComponent"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[454404146500]/Components/EditorStaticRigidBodyComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[473033067719323]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -2.4112548828125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.45752215385437
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": -49.01970672607422
+                }
+            ]
+        },
         "Instance_[85492483745554]": {
             "Source": "PlasticBarrel/PlasticBarrel2.prefab",
             "Patches": [
@@ -5144,7 +5379,7 @@
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[871654655643]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
-                    "value": -5.683932768896226e-10
+                    "value": -5.683932768896223e-10
                 },
                 {
                     "op": "replace",

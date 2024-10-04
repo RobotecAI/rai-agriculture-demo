@@ -219,8 +219,7 @@
                                 {
                                     "$type": "AzFramework::ScriptPropertyBoolean",
                                     "id": 1822771111,
-                                    "name": "Debug",
-                                    "value": true
+                                    "name": "Debug"
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
