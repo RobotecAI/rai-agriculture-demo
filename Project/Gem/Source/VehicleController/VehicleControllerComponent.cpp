@@ -9,6 +9,7 @@
 #include "VehicleControllerComponent.h"
 #include <AzCore/Serialization/EditContext.h>
 #include <AzCore/Serialization/SerializeContext.h>
+#include <ROS2/ROS2Bus.h>
 
 namespace RAIControl
 {
@@ -45,29 +46,74 @@ namespace RAIControl
 
     void VehicleControllerComponent::Activate()
     {
-        // auto node = ROS2::ROS2Interface::Get()->GetNode();
-        // if (!node)
-        // {
-        //     AZ_Error("LightController", false, "ROS2 node is not available. Component will not be activated.");
-        //     return;
-        // }
+        auto ros2Node = ROS2::ROS2Interface::Get()->GetNode();
+        if (!ros2Node)
+        {
+            AZ_Error("VehicleControllerComponent", false, "ROS2 node is not available. ROS 2 services will not be created.");
+            return;
+        }
 
-        // auto* ros2Frame = ROS2::Utils::GetGameOrEditorComponent<ROS2::ROS2FrameComponent>(GetEntity());
-        // if (!ros2Frame)
-        // {
-        //     AZ_Error(
-        //         "LightController",
-        //         false,
-        //         "ROS2FrameComponent is not available. Component will not be "
-        //         "activated.");
-        //     return;
-        // }
+        const auto& serviceNames = m_configuration.m_serviceNames;
 
-        // AZStd::string topicName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), m_topicConfiguration.m_topic);
+        m_continueService = ros2Node->create_service<std_srvs::srv::Trigger>(
+            serviceNames.m_continueServiceName.c_str(),
+            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            {
+                m_currentState = VehicleState::DRIVING;
+                response->success = true;
+                response->message = "The vehicle continues the mission";
+            });
+
+        m_replanService = ros2Node->create_service<std_srvs::srv::Trigger>(
+            serviceNames.m_replanServiceName.c_str(),
+            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            {
+                m_currentState = VehicleState::REVERSING;
+                response->success = true;
+                response->message = "The current mission was aborted";
+            });
+
+        m_stopService = ros2Node->create_service<std_srvs::srv::Trigger>(
+            serviceNames.m_stopServiceName.c_str(),
+            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            {
+                m_currentState = VehicleState::STOPPED;
+                response->success = true;
+                response->message = "The vehicle was stopped";
+            });
+
+        m_stateService = ros2Node->create_service<std_srvs::srv::Trigger>(
+            serviceNames.m_stateServiceName.c_str(),
+            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            {
+                AZStd::unordered_map<VehicleState, AZStd::string> stateMessages = {
+                    { VehicleState::STOPPED, "STOPPED: the vehicle has stopped" },
+                    { VehicleState::DRIVING, "DRIVING: the vehicle is performing a mission" },
+                    { VehicleState::REVERSING, "REVERSING: the vehicle is reversing to skip the current mission" },
+                    { VehicleState::CHANGING_PATH,
+                      "CHANGING_PATH: the vehicle finished/aborted the current mission and will start the next one" },
+                    { VehicleState::FINISHED, "FINISHED: the vehicle has stopped after finishing/aborting the last mission" }
+                };
+
+                response->success = true;
+                response->message = stateMessages[m_currentState].c_str();
+            });
+
+        m_flashService = ros2Node->create_service<std_srvs::srv::Trigger>(
+            serviceNames.m_flashServiceName.c_str(),
+            [](const TriggerSrvRequest request, TriggerSrvResponse response)
+            {
+                response->success = true;
+                response->message = "flash!";
+            });
     }
 
     void VehicleControllerComponent::Deactivate()
     {
-        // m_subscription.reset();
+        m_continueService.reset();
+        m_replanService.reset();
+        m_stopService.reset();
+        m_stateService.reset();
+        m_flashService.reset();
     }
 } // namespace RAIControl

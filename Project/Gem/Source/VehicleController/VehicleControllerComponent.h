@@ -17,6 +17,10 @@
 
 namespace RAIControl
 {
+    using TriggerSrvRequest = std::shared_ptr<std_srvs::srv::Trigger::Request>;
+    using TriggerSrvResponse = std::shared_ptr<std_srvs::srv::Trigger::Response>;
+    using TriggerSrvHandle = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger>>;
+
     class VehicleControllerComponent : public AZ::Component
     {
     public:
@@ -33,5 +37,22 @@ namespace RAIControl
 
     private:
         VehicleControllerConfig m_configuration;
+
+        rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr m_continueService;
+        rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr m_replanService;
+        rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr m_stopService;
+        rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr m_stateService;
+        rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr m_flashService;
+
+        enum class VehicleState
+        {
+            STOPPED = 0,
+            DRIVING,
+            REVERSING,
+            CHANGING_PATH,
+            FINISHED
+        };
+
+        VehicleState m_currentState{ VehicleState::STOPPED };
     };
 } // namespace RAIControl
