@@ -25,7 +25,6 @@
         "DebugDraw",
         "ImGui",
         "LandscapeCanvas",
-        "RAIAgricultureDemo",
         "Terrain",
         "Vegetation",
         "PhysX5",
@@ -38,7 +37,8 @@
         "RobotecAgricultureDecorationsAssets",
         "RobotecAgricultureMachines>=2.0.0",
         "RobotecAgricultureVegetationAssets",
-        "RobotecSmallContainersAssets"
+        "RobotecSmallContainersAssets",
+        "RAIAgricultureDemo"
     ],
     "restricted": "RAIAgricultureDemo",
     "engine_version": "2.3.0"

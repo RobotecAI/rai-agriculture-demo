@@ -23,7 +23,8 @@
                     "Instance_[241926388190473]/ContainerEntity",
                     "Instance_[432416777702665]/ContainerEntity",
                     "Entity_[436856558185115]",
-                    "Entity_[596052605927933]"
+                    "Entity_[596052605927933]",
+                    "Entity_[16987916211174]"
                 ]
             },
             "EditorInspectorComponent": {
@@ -214,6 +215,60 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 8303273259987681914,
                     "Parent Entity": "Entity_[473033067719323]"
+                }
+            }
+        },
+        "Entity_[16987916211174]": {
+            "Id": "Entity_[16987916211174]",
+            "Name": "Entity1",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16412036139212837445
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12531039186743905369
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14424136327675291442
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11609786960537852494
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1601206554986854744
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3740195296473623833
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8904198638841597995
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8225343426251100057
+                },
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 10509861829847745232
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17667708006087643540,
+                    "Parent Entity": "Entity_[340953507857]"
+                },
+                "VehicleControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 12621626916459051788,
+                    "m_template": {
+                        "$type": "VehicleControllerComponent"
+                    }
                 }
             }
         },
@@ -1629,7 +1684,7 @@
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 21.047000885009766
+                    "value": 21.04700088500977
                 },
                 {
                     "op": "replace",
