@@ -11,9 +11,11 @@
 #include <AzCore/Serialization/EditContext.h>
 #include <AzCore/Serialization/SerializeContext.h>
 #include <LmbrCentral/Shape/SplineComponentBus.h>
+#include <ROS2/Frame/ROS2FrameComponent.h>
 #include <ROS2/ROS2Bus.h>
 #include <ROS2/RobotControl/Ackermann/AckermannBus.h>
 #include <ROS2/RobotControl/Ackermann/AckermannCommandStruct.h>
+#include <ROS2/Utilities/ROS2Names.h>
 
 namespace RAIControl
 {
@@ -57,10 +59,18 @@ namespace RAIControl
             return;
         }
 
+        auto ros2Frame = ROS2::Utils::GetGameOrEditorComponent<ROS2::ROS2FrameComponent>(GetEntity());
+        if (!ros2Frame)
+        {
+            AZ_Error("VehicleControllerComponent", false, "ROS2 frame is not available. ROS 2 services will not be created.");
+            return;
+        }
+
         const auto& serviceNames = m_configuration.m_serviceNames;
 
+        AZStd::string serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_continueServiceName);
         m_continueService = ros2Node->create_service<std_srvs::srv::Trigger>(
-            serviceNames.m_continueServiceName.c_str(),
+            serviceName.c_str(),
             [this](const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 m_currentState = VehicleState::DRIVING;
@@ -68,8 +78,9 @@ namespace RAIControl
                 response->message = "The vehicle continues the mission";
             });
 
+        serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_replanServiceName);
         m_replanService = ros2Node->create_service<std_srvs::srv::Trigger>(
-            serviceNames.m_replanServiceName.c_str(),
+            serviceName.c_str(),
             [this](const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 m_currentState = VehicleState::REVERSING;
@@ -77,8 +88,9 @@ namespace RAIControl
                 response->message = "The current mission was aborted";
             });
 
+        serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_stopServiceName);
         m_stopService = ros2Node->create_service<std_srvs::srv::Trigger>(
-            serviceNames.m_stopServiceName.c_str(),
+            serviceName.c_str(),
             [this](const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 m_currentState = VehicleState::STOPPED;
@@ -86,8 +98,9 @@ namespace RAIControl
                 response->message = "The vehicle was stopped";
             });
 
+        serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_stateServiceName);
         m_stateService = ros2Node->create_service<std_srvs::srv::Trigger>(
-            serviceNames.m_stateServiceName.c_str(),
+            serviceName.c_str(),
             [this](const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 AZStd::unordered_map<VehicleState, AZStd::string> stateMessages = {
@@ -103,8 +116,9 @@ namespace RAIControl
                 response->message = stateMessages[m_currentState].c_str();
             });
 
+        serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_flashServiceName);
         m_flashService = ros2Node->create_service<std_srvs::srv::Trigger>(
-            serviceNames.m_flashServiceName.c_str(),
+            serviceName.c_str(),
             [](const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 response->success = true;

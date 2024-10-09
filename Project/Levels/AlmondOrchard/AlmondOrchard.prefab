@@ -4986,11 +4986,6 @@
                     "value": 21.970306396484375
                 },
                 {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253772436829698]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 0
-                },
-                {
                     "op": "add",
                     "path": "/Entities/Entity_[253772436829698]/Components/VehicleControllerComponent/m_template/Configuration/predefinedObstacles/0",
                     "value": "../Entity_[460487468247707]"
