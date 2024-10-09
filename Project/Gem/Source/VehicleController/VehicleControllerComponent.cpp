@@ -213,12 +213,19 @@ namespace RAIControl
             AZ::Vector3 obstacleTranslation = AZ::Vector3::CreateZero();
             AZ::TransformBus::EventResult(obstacleTranslation, obstacleId, &AZ::TransformBus::Events::GetWorldTranslation);
 
-            if ((obstacleTranslation - vehiclePosition).GetLength() < 5.0 && !m_obstacleDetected)
+            if ((obstacleTranslation - vehiclePosition).GetLength() < 5.0)
             {
-                m_obstacleDetected = true;
-                m_currentState = VehicleState::STOPPED;
+                // Set the flag and stop the vehicle
+                if (!m_obstacleDetected)
+                {
+                    m_obstacleDetected = true;
+                    m_currentState = VehicleState::STOPPED;
+                }
+                // No need to look for other collisions
+                return;
             }
         }
+        // No collisions detected; reset the flag
         m_obstacleDetected = false;
     }
 
