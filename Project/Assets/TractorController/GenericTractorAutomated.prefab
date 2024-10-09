@@ -68,8 +68,7 @@
                     "Child Entity Order": [
                         "Entity_[409875364293610]",
                         "Entity_[253772436829698]",
-                        "Entity_[253768141862402]",
-                        "Entity_[253789616698882]"
+                        "Entity_[253768141862402]"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -204,181 +203,38 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 18068754206115531723
                 },
-                "ScriptEditorComponent": {
-                    "$type": "ScriptEditorComponent",
-                    "Id": 7636228981400698933,
-                    "ScriptComponent": {
-                        "Properties": {
-                            "Properties": [
-                                {
-                                    "$type": "AzFramework::ScriptPropertyString",
-                                    "id": 3269582454,
-                                    "name": "ControlNamespace",
-                                    "value": "tractor"
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyBoolean",
-                                    "id": 1822771111,
-                                    "name": "Debug"
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 1868180134,
-                                    "name": "StartupDelay",
-                                    "value": 3.0
-                                }
-                            ],
-                            "Groups": [
-                                {
-                                    "Name": "Tractor",
-                                    "Properties": [
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyNumber",
-                                            "id": 1757241569,
-                                            "name": "LookAhead",
-                                            "value": 1.0
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyNumber",
-                                            "id": 254213878,
-                                            "name": "Speed",
-                                            "value": 1.0
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyNumber",
-                                            "id": 1604720501,
-                                            "name": "SteeringGain",
-                                            "value": 3.0
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyString",
-                                            "id": 2638274075,
-                                            "name": "Topic",
-                                            "value": "ackermann_vel"
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 1788293387,
-                                            "name": "TractorEntityId",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Instance_[51405573643237]/Entity_[2144213563765]"
-                                            }
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 2157436617,
-                                            "name": "TractorForwardAxis",
-                                            "value": {
-                                                "$type": "Vector3",
-                                                "value": [
-                                                    1.0,
-                                                    0.0,
-                                                    0.0
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 3999218335,
-                                            "name": "TractorRightAxis",
-                                            "value": {
-                                                "$type": "Vector3",
-                                                "value": [
-                                                    0.0,
-                                                    -1.0,
-                                                    0.0
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Name": "Paths",
-                                    "Properties": [
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 325625517,
-                                            "name": "Path1",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[253798206633474]"
-                                            }
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 2321676055,
-                                            "name": "Path2",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[253785321731586]"
-                                            }
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 4251371393,
-                                            "name": "Path3",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[253776731796994]"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Name": "Collisions",
-                                    "Properties": [
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 2942221343,
-                                            "name": "Collision1",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[253781026764290]"
-                                            }
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 911732133,
-                                            "name": "Collision2",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[253793911666178]"
-                                            }
-                                        },
-                                        {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 1095818547,
-                                            "name": "Collision3",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[543730825016378]"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 3009858182939806957,
+                    "ROS2FrameConfiguration": {
+                        "Namespace Configuration": {
+                            "Namespace Strategy": 3,
+                            "Namespace": "tractor"
                         },
-                        "Script": {
-                            "assetId": {
-                                "guid": "{712C969B-1A64-55A6-98D0-22EF7891F1B9}",
-                                "subId": 1
-                            },
-                            "assetHint": "assets/tractorcontroller/tractorcontroller.luac"
-                        }
-                    },
-                    "ScriptAsset": {
-                        "assetId": {
-                            "guid": "{712C969B-1A64-55A6-98D0-22EF7891F1B9}",
-                            "subId": 1
-                        },
-                        "assetHint": "assets/tractorcontroller/tractorcontroller.luac"
+                        "Frame Name": "vehicle_controller"
                     }
                 },
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3821488205776815275,
                     "Parent Entity": "Entity_[2071016784718001]"
+                },
+                "VehicleControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 4838786716121799115,
+                    "m_template": {
+                        "$type": "VehicleControllerComponent",
+                        "Configuration": {
+                            "vehicleEntityId": "Instance_[51405573643237]/Entity_[2144213563765]",
+                            "vehicleSteeringGain": 3.0,
+                            "startDelay": 3.0,
+                            "predefinedPaths": [
+                                "Entity_[253798206633474]",
+                                "Entity_[253785321731586]",
+                                "Entity_[253776731796994]"
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -892,56 +748,6 @@
                 }
             }
         },
-        "Entity_[253781026764290]": {
-            "Id": "Entity_[253781026764290]",
-            "Name": "Obstacle1",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 13351926342158315384
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 10897582656811403415
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 15386855614676380519
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 17701976661622312939
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 1656137725798620895
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 13821244973157729376
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 9748307530740887619
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 18023805058541828027
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 17483593533297527502,
-                    "Parent Entity": "Entity_[253789616698882]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            -20.0
-                        ]
-                    }
-                }
-            }
-        },
         "Entity_[253785321731586]": {
             "Id": "Entity_[253785321731586]",
             "Name": "Trajectory2",
@@ -1447,111 +1253,6 @@
                             0.0,
                             28.0,
                             0.0
-                        ]
-                    }
-                }
-            }
-        },
-        "Entity_[253789616698882]": {
-            "Id": "Entity_[253789616698882]",
-            "Name": "Obstacles",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 9929954332614441975
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 1790081305216947248
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 13800863626986308737,
-                    "Child Entity Order": [
-                        "Entity_[253781026764290]",
-                        "Entity_[253793911666178]",
-                        "Entity_[543730825016378]"
-                    ]
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 12907336662407549378
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 5778015671822034353
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 17216011136109293610
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 12245775356948727340
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11851001938230995988
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 7658743309188578311,
-                    "Parent Entity": "Entity_[2071016784718001]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            1.7999999523162842
-                        ]
-                    }
-                }
-            }
-        },
-        "Entity_[253793911666178]": {
-            "Id": "Entity_[253793911666178]",
-            "Name": "Obstacle2",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15344917664150724778
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 3573169562306416635
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 13079440520224038644
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 4358420884837771896
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 942076352321559073
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 5336395370197174456
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 12324357017879681124
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2419019373243327710
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 8585092779224560561,
-                    "Parent Entity": "Entity_[253789616698882]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            -20.0
                         ]
                     }
                 }
@@ -2117,56 +1818,6 @@
                     }
                 }
             }
-        },
-        "Entity_[543730825016378]": {
-            "Id": "Entity_[543730825016378]",
-            "Name": "Obstacle3",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 17455965172568739709
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 13334802051672193312
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17456283677339278541
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 4024871748543411393
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 13532387032796404720
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 13537282927193794110
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3555752884288520453
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2238217929769433275
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 9155391703735694327,
-                    "Parent Entity": "Entity_[253789616698882]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.0,
-                            0.0,
-                            -20.0
-                        ]
-                    }
-                }
-            }
         }
     },
     "Instances": {
@@ -2222,6 +1873,68 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/2",
                     "value": -97.26801300048828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2217228007797]/Components/EditorDisabledCompositionComponent/DisabledComponents",
+                    "value": {
+                        "ROS2LidarSensorComponent": {
+                            "$type": "GenericComponentWrapper",
+                            "Id": 974081251845157425,
+                            "m_template": {
+                                "$type": "ROS2LidarSensorComponent",
+                                "Id": 0,
+                                "SensorConfiguration": {
+                                    "Visualize": true,
+                                    "Publishing Enabled": true,
+                                    "Frequency (HZ)": 10.0,
+                                    "Publishers": {
+                                        "sensor_msgs::msg::PointCloud2": {
+                                            "Type": "sensor_msgs::msg::PointCloud2",
+                                            "Topic": "pc",
+                                            "QoS": {
+                                                "Reliability": 2,
+                                                "Durability": 2,
+                                                "Depth": 5
+                                            }
+                                        }
+                                    }
+                                },
+                                "lidarCore": {
+                                    "lidarConfiguration": {
+                                        "lidarModelName": "CustomLidar",
+                                        "lidarImplementation": "RobotecGPULidar",
+                                        "LidarParameters": {
+                                            "Name": "CustomLidar",
+                                            "Layers": 24,
+                                            "Points per layer": 924,
+                                            "Min horizontal angle": -180.0,
+                                            "Max horizontal angle": 180.0,
+                                            "Min vertical angle": -35.0,
+                                            "Max vertical angle": 35.0,
+                                            "Min range": 0.0,
+                                            "Max range": 100.0,
+                                            "Enable Noise": true,
+                                            "Noise Parameters": {
+                                                "Angular noise standard deviation": 0.0,
+                                                "Distance noise standard deviation base": 0.009999999776482582,
+                                                "Distance noise standard deviation slope": 0.0010000000474974513
+                                            }
+                                        },
+                                        "IgnoredLayerIndices": [],
+                                        "ExcludedEntities": [
+                                            "Entity_[2303127353717]"
+                                        ],
+                                        "PointsAtMax": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[2217228007797]/Components/ROS2LidarSensorComponent"
                 }
             ]
         }

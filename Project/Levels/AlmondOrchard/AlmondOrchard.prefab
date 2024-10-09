@@ -20,11 +20,9 @@
                     "Instance_[49893159105648]/ContainerEntity",
                     "Instance_[5601123711445]/ContainerEntity",
                     "Instance_[14191058303445]/ContainerEntity",
-                    "Instance_[241926388190473]/ContainerEntity",
-                    "Instance_[432416777702665]/ContainerEntity",
                     "Entity_[436856558185115]",
                     "Entity_[596052605927933]",
-                    "Entity_[16987916211174]"
+                    "Instance_[53177680961249]/ContainerEntity"
                 ]
             },
             "EditorInspectorComponent": {
@@ -215,60 +213,6 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 8303273259987681914,
                     "Parent Entity": "Entity_[473033067719323]"
-                }
-            }
-        },
-        "Entity_[16987916211174]": {
-            "Id": "Entity_[16987916211174]",
-            "Name": "Entity1",
-            "Components": {
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 16412036139212837445
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 12531039186743905369
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 14424136327675291442
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 11609786960537852494
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 1601206554986854744
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 3740195296473623833
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 8904198638841597995
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 8225343426251100057
-                },
-                "ROS2FrameEditorComponent": {
-                    "$type": "ROS2FrameEditorComponent",
-                    "Id": 10509861829847745232
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 17667708006087643540,
-                    "Parent Entity": "Entity_[340953507857]"
-                },
-                "VehicleControllerComponent": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 12621626916459051788,
-                    "m_template": {
-                        "$type": "VehicleControllerComponent"
-                    }
                 }
             }
         },
@@ -878,8 +822,8 @@
                                 "Entity_[681810217927165]",
                                 "Entity_[1720676907483645]",
                                 "Entity_[2020788200650722]",
-                                "Instance_[241926388190473]/Instance_[51405573643237]/Entity_[2285947484533]",
-                                "Instance_[432416777702665]/Instance_[51405573643237]/Entity_[2285947484533]"
+                                "",
+                                ""
                             ],
                             "LockZAxis": true,
                             "DefaultView": 4
@@ -1401,122 +1345,6 @@
                 }
             ]
         },
-        "Instance_[241926388190473]": {
-            "Source": "Assets/TractorController/GenericTractorAutomated.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[340953507857]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 59.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 66.5
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 3
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace",
-                    "value": "tractor1"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorDisabledCompositionComponent/DisabledComponents",
-                    "value": {
-                        "EditorCameraComponent": {
-                            "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                            "Id": 647722106997941253,
-                            "Controller": {
-                                "Configuration": {
-                                    "Orthographic": false,
-                                    "Orthographic Half Width": 5.0,
-                                    "Field of View": 60.0,
-                                    "Near Clip Plane Distance": 0.20000000298023224,
-                                    "Far Clip Plane Distance": 1024.0,
-                                    "SpecifyDimensions": false,
-                                    "FrustumWidth": 256.0,
-                                    "FrustumHeight": 256.0,
-                                    "MakeActiveViewOnActivation": true,
-                                    "RenderToTexture": {
-                                        "assetId": {
-                                            "guid": "{00000000-0000-0000-0000-000000000000}",
-                                            "subId": 0
-                                        },
-                                        "loadBehavior": "QueueLoad",
-                                        "assetHint": ""
-                                    },
-                                    "PipelineTemplate": "CameraPipeline"
-                                }
-                            },
-                            "FrustumLengthPercent": 1.0,
-                            "FrustumDrawColor": [
-                                1.0,
-                                1.0,
-                                0.0,
-                                0.8999999761581421
-                            ]
-                        }
-                    }
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorCameraComponent"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorLookAtComponent"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/FlyCameraInputComponent"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 51.16600036621094
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 38.4640007019043
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 63.12300109863281
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
-                    "value": "tractor1"
-                }
-            ]
-        },
         "Instance_[287128893674793]": {
             "Source": "Assets/CatController/EscapingCat.prefab",
             "Patches": [
@@ -1534,182 +1362,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
                     "value": "../Entity_[340953507857]"
-                }
-            ]
-        },
-        "Instance_[432416777702665]": {
-            "Source": "Assets/TractorController/GenericTractorAutomated.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[340953507857]"
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 59.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 73.5
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/ShapeColor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/ShapeColor/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/ShapeColor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/ShapeColor/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
-                    "value": 3
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace",
-                    "value": "tractor2"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorDisabledCompositionComponent/DisabledComponents",
-                    "value": {
-                        "EditorCameraComponent": {
-                            "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                            "Id": 647722106997941253,
-                            "Controller": {
-                                "Configuration": {
-                                    "Orthographic": false,
-                                    "Orthographic Half Width": 5.0,
-                                    "Field of View": 60.0,
-                                    "Near Clip Plane Distance": 0.20000000298023224,
-                                    "Far Clip Plane Distance": 1024.0,
-                                    "SpecifyDimensions": false,
-                                    "FrustumWidth": 256.0,
-                                    "FrustumHeight": 256.0,
-                                    "MakeActiveViewOnActivation": true,
-                                    "RenderToTexture": {
-                                        "assetId": {
-                                            "guid": "{00000000-0000-0000-0000-000000000000}",
-                                            "subId": 0
-                                        },
-                                        "loadBehavior": "QueueLoad",
-                                        "assetHint": ""
-                                    },
-                                    "PipelineTemplate": "CameraPipeline"
-                                }
-                            },
-                            "FrustumLengthPercent": 1.0,
-                            "FrustumDrawColor": [
-                                1.0,
-                                1.0,
-                                0.0,
-                                0.8999999761581421
-                            ]
-                        }
-                    }
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorCameraComponent"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/EditorLookAtComponent"
-                },
-                {
-                    "op": "remove",
-                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/FlyCameraInputComponent"
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 75.98100280761719
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 21.04700088500977
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253781026764290]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 54.92900085449219
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 34.95500183105469
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253793911666178]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[253772436829698]/Components/ScriptEditorComponent/ScriptComponent/Properties/Properties/0/value",
-                    "value": "tractor2"
                 }
             ]
         },
@@ -5297,6 +4949,66 @@
                 {
                     "op": "remove",
                     "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/0"
+                }
+            ]
+        },
+        "Instance_[53177680961249]": {
+            "Source": "Assets/TractorController/GenericTractorAutomated.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[340953507857]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 59.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 66.5
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 5.319816589355469
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": 2.7317633628845215
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/1",
+                    "value": 21.970306396484375
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253772436829698]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace Strategy",
+                    "value": 0
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[253772436829698]/Components/VehicleControllerComponent/m_template/Configuration/predefinedObstacles/0",
+                    "value": "../Entity_[460487468247707]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[253772436829698]/Components/VehicleControllerComponent/m_template/Configuration/predefinedObstacles/1",
+                    "value": "../Entity_[456961300097691]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[253772436829698]/Components/VehicleControllerComponent/m_template/Configuration/predefinedObstacles/2",
+                    "value": "../Entity_[473033067719323]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[253772436829698]/Components/VehicleControllerComponent/m_template/Configuration/predefinedObstacles/3",
+                    "value": "../Entity_[483001686813339]"
                 }
             ]
         },
