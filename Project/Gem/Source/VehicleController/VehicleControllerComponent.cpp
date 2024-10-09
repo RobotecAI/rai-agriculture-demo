@@ -7,9 +7,13 @@
  */
 
 #include "VehicleControllerComponent.h"
+#include <AzCore/Component/TransformBus.h>
 #include <AzCore/Serialization/EditContext.h>
 #include <AzCore/Serialization/SerializeContext.h>
+#include <LmbrCentral/Shape/SplineComponentBus.h>
 #include <ROS2/ROS2Bus.h>
+#include <ROS2/RobotControl/Ackermann/AckermannBus.h>
+#include <ROS2/RobotControl/Ackermann/AckermannCommandStruct.h>
 
 namespace RAIControl
 {
@@ -106,6 +110,8 @@ namespace RAIControl
                 response->success = true;
                 response->message = "flash!";
             });
+
+        AZ::TickBus::Handler::BusConnect();
     }
 
     void VehicleControllerComponent::Deactivate()
@@ -115,5 +121,142 @@ namespace RAIControl
         m_stopService.reset();
         m_stateService.reset();
         m_flashService.reset();
+
+        if (AZ::TickBus::Handler::BusIsConnected())
+        {
+            AZ::TickBus::Handler::BusDisconnect();
+        }
+    }
+
+    AZStd::pair<float, float> VehicleControllerComponent::moveVehicle()
+    {
+        AZ::Vector3 vehiclePosition = AZ::Vector3::CreateZero();
+        AZ::TransformBus::EventResult(vehiclePosition, m_configuration.m_vehicleEntityId, &AZ::TransformBus::Events::GetWorldTranslation);
+        detectCollisions(vehiclePosition);
+
+        AZ::Transform vehiclePose = AZ::Transform::CreateIdentity();
+        AZ::TransformBus::EventResult(vehiclePose, m_configuration.m_vehicleEntityId, &AZ::TransformBus::Events::GetWorldTM);
+        const AZ::Transform vehiclePoseInv = vehiclePose.GetInverse();
+
+        AZStd::unordered_map<VehicleState, float> directions = { { VehicleState::STOPPED, 0.0f },
+                                                                 { VehicleState::DRIVING, 1.0f },
+                                                                 { VehicleState::REVERSING, -1.0f },
+                                                                 { VehicleState::CHANGING_PATH, 1.0f },
+                                                                 { VehicleState::FINISHED, 0.0f } };
+
+        // Assume X axis looking forward
+        const AZ::Vector3 vehicleForward = AZ::Vector3::CreateAxisX() * directions[m_currentState];
+        const AZ::Vector3 probePosition = vehiclePosition + vehiclePose.TransformVector(vehicleForward);
+
+        AZ::Transform splinePose = AZ::Transform::CreateIdentity();
+        const auto& splineEntityId = m_configuration.m_predefinedPaths[m_currentPath];
+        AZ::TransformBus::EventResult(splinePose, splineEntityId, &AZ::TransformBus::Events::GetWorldTM);
+        const AZ::Transform splinePoseInv = splinePose.GetInverse();
+
+        AZ::ConstSplinePtr splinePtr{ nullptr };
+        LmbrCentral::SplineComponentRequestBus::EventResult(splinePtr, splineEntityId, &LmbrCentral::SplineComponentRequests::GetSpline);
+        if (!splinePtr)
+        {
+            AZ_Error("VehicleControllerComponent", false, "Cannot find spline to calculate the vehicle's movement.");
+            return {};
+        }
+
+        const AZ::Vector3 probePositionInSplineFrame = splinePoseInv.TransformPoint(probePosition);
+        const auto nearestAddress = splinePtr->GetNearestAddressPosition(probePositionInSplineFrame);
+        const AZ::Vector3 nearestPosition = splinePtr->GetPosition(nearestAddress.m_splineAddress);
+        const AZ::Vector3 nearestPositionWorld = splinePose.TransformPoint(nearestPosition);
+        const AZ::Vector3 nearestPositionVehicleFrame = vehiclePoseInv.TransformPoint(nearestPositionWorld);
+
+        // Assume X axis looking forward, Y axis looking left (-Y looking right)
+        const float crossTrackError = nearestPositionVehicleFrame.Dot(-AZ::Vector3::CreateAxisY());
+        const float lateralError = nearestPositionVehicleFrame.Dot(AZ::Vector3::CreateAxisX()) - directions[m_currentState];
+
+        float steeringAngle = -m_configuration.m_vehicleSteeringGain * crossTrackError;
+        const float speed = m_configuration.m_vehicleSpeed * directions[m_currentState];
+
+        // Reduce steering for large distances (to eliminate "zig-zag" movement)
+        if (lateralError > 1.0f)
+        {
+            steeringAngle /= lateralError;
+        }
+
+        // Apply Ackermann steering
+        ROS2::AckermannCommandStruct acs;
+        acs.m_steeringAngle = steeringAngle;
+        acs.m_steeringAngleVelocity = 0.0f;
+        acs.m_speed = speed;
+        acs.m_acceleration = 0.0f;
+        acs.m_jerk = 0.0f;
+        ROS2::AckermannNotificationBus::Event(m_configuration.m_vehicleEntityId, &ROS2::AckermannNotifications::AckermannReceived, acs);
+
+        return AZStd::make_pair(crossTrackError, lateralError);
+    }
+
+    void VehicleControllerComponent::detectCollisions(const AZ::Vector3& vehiclePosition)
+    {
+        for (const auto& obstacleId : m_configuration.m_predefinedObstacles)
+        {
+            AZ::Vector3 obstacleTranslation = AZ::Vector3::CreateZero();
+            AZ::TransformBus::EventResult(obstacleTranslation, obstacleId, &AZ::TransformBus::Events::GetWorldTranslation);
+
+            if ((obstacleTranslation - vehiclePosition).GetLength() < 5.0 && !m_obstacleDetected)
+            {
+                m_obstacleDetected = true;
+                m_currentState = VehicleState::STOPPED;
+            }
+        }
+        m_obstacleDetected = false;
+    }
+
+    void VehicleControllerComponent::switchPath()
+    {
+        if (m_currentPath < m_configuration.m_predefinedPaths.size() - 1)
+        {
+            m_currentState = VehicleState::CHANGING_PATH;
+            ++m_currentPath;
+        }
+        else
+        {
+            m_currentState = VehicleState::FINISHED;
+        }
+    }
+
+    void VehicleControllerComponent::OnTick(float deltaTime, [[maybe_unused]] AZ::ScriptTimePoint timePoint)
+    {
+        if (deltaTime > 0.25f)
+        {
+            return;
+        }
+
+        // startup delay
+        m_currentTime += deltaTime;
+        if (m_currentTime < m_configuration.m_startDelay)
+        {
+            return;
+        }
+
+        // early terminate
+        if (m_currentState == VehicleState::FINISHED || m_currentState == VehicleState::STOPPED)
+        {
+            return;
+        }
+
+        // calculate movement and process state machine
+        const auto [crossTrackError, lateralError] = moveVehicle();
+        if (m_currentState == VehicleState::DRIVING && lateralError < -0.5)
+        {
+            // Reached the end of the current path
+            switchPath();
+        }
+        else if (m_currentState == VehicleState::REVERSING && lateralError > 0.5)
+        {
+            // Reaching the beginning of the aborted path
+            switchPath();
+        }
+        else if (m_currentState == VehicleState::CHANGING_PATH && AZStd::abs(lateralError) < 0.5 && AZStd::abs(crossTrackError) < 0.5)
+        {
+            // Reached the next path, continue driving on a path
+            m_currentState = VehicleState::DRIVING;
+        }
     }
 } // namespace RAIControl

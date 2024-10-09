@@ -23,8 +23,7 @@ namespace RAIControl
                 ->Field("replanServiceName", &VehicleControllerServiceNames::m_replanServiceName)
                 ->Field("stopServiceName", &VehicleControllerServiceNames::m_stopServiceName)
                 ->Field("stateServiceName", &VehicleControllerServiceNames::m_stateServiceName)
-                ->Field("flashServiceName", &VehicleControllerServiceNames::m_flashServiceName)
-                ->Field("controlTopicName", &VehicleControllerServiceNames::m_controlTopicName);
+                ->Field("flashServiceName", &VehicleControllerServiceNames::m_flashServiceName);
 
             if (auto editContext = serializeContext->GetEditContext())
             {
@@ -55,12 +54,7 @@ namespace RAIControl
                         AZ::Edit::UIHandlers::Default,
                         &VehicleControllerServiceNames::m_flashServiceName,
                         "Flash/honk service name",
-                        "Service name for enforcing vehicle to flash lights and honk")
-                    ->DataElement(
-                        AZ::Edit::UIHandlers::Default,
-                        &VehicleControllerServiceNames::m_controlTopicName,
-                        "Control topic name",
-                        "The control is sent over ROS 2, so it can be read`");
+                        "Service name for enforcing vehicle to flash lights and honk");
             }
         }
     }
@@ -77,6 +71,7 @@ namespace RAIControl
                 ->Field("vehicleEntityId", &VehicleControllerConfig::m_vehicleEntityId)
                 ->Field("vehicleSpeed", &VehicleControllerConfig::m_vehicleSpeed)
                 ->Field("vehicleSteeringGain", &VehicleControllerConfig::m_vehicleSteeringGain)
+                ->Field("startDelay", &VehicleControllerConfig::m_startDelay)
                 ->Field("predefinedPaths", &VehicleControllerConfig::m_predefinedPaths)
                 ->Field("predefinedObstacles", &VehicleControllerConfig::m_predefinedObstacles)
                 ->Field("vehicleLights", &VehicleControllerConfig::m_vehicleLights);
@@ -90,6 +85,8 @@ namespace RAIControl
                         AZ::Edit::UIHandlers::Default, &VehicleControllerConfig::m_vehicleEntityId, "Entity Id", "Entity Id of the vehicle")
                     ->DataElement(
                         AZ::Edit::UIHandlers::Default, &VehicleControllerConfig::m_vehicleSpeed, "Speed", "Max. speed of the vehicle")
+                    ->DataElement(
+                        AZ::Edit::UIHandlers::Default, &VehicleControllerConfig::m_startDelay, "Start delay", "Delay before the start [s]")
                     ->DataElement(
                         AZ::Edit::UIHandlers::Default,
                         &VehicleControllerConfig::m_vehicleSteeringGain,

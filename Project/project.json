@@ -31,7 +31,6 @@
         "PhysX5Debug",
         "ROS2>=3.1.0",
         "ROS2ScriptIntegration",
-        "RemoteTools",
         "CsvSpawner",
         "RobotecSkyboxAssets",
         "RobotecAgricultureDecorationsAssets",

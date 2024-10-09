@@ -26,7 +26,6 @@ namespace RAIControl
         AZStd::string m_stopServiceName = "stop";
         AZStd::string m_stateServiceName = "current_state";
         AZStd::string m_flashServiceName = "flash";
-        AZStd::string m_controlTopicName = "ackermann_vel";
 
         static void Reflect(AZ::ReflectContext* context);
     };
@@ -46,6 +45,7 @@ namespace RAIControl
         AZ::EntityId m_vehicleEntityId;
         float m_vehicleSpeed{ 1.0f };
         float m_vehicleSteeringGain{ 1.0f };
+        float m_startDelay{ 1.0f };
         AZStd::vector<AZ::EntityId> m_predefinedPaths;
         AZStd::vector<AZ::EntityId> m_predefinedObstacles;
         AZStd::unordered_map<AZ::EntityId, int> m_vehicleLights;

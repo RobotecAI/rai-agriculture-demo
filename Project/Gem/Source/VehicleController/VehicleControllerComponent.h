@@ -12,6 +12,10 @@
 
 #include <AzCore/Component/Component.h>
 #include <AzCore/Component/EntityId.h>
+#include <AzCore/Component/TickBus.h>
+#include <AzCore/Math/Transform.h>
+#include <AzCore/Math/Vector3.h>
+#include <AzCore/std/utility/pair.h>
 #include <rclcpp/rclcpp.hpp>
 #include <std_srvs/srv/trigger.hpp>
 
@@ -21,7 +25,9 @@ namespace RAIControl
     using TriggerSrvResponse = std::shared_ptr<std_srvs::srv::Trigger::Response>;
     using TriggerSrvHandle = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger>>;
 
-    class VehicleControllerComponent : public AZ::Component
+    class VehicleControllerComponent
+        : public AZ::Component
+        , public AZ::TickBus::Handler
     {
     public:
         AZ_COMPONENT(VehicleControllerComponent, "{98D5A3B5-D8C7-4D4F-8B75-4CBE47D05E08}");
@@ -36,6 +42,11 @@ namespace RAIControl
         void Deactivate() override;
 
     private:
+        //////////////////////////////////////////////////////////////////////////
+        // AZ::TickBus::Handler overrides
+        void OnTick(float deltaTime, AZ::ScriptTimePoint time) override;
+        //////////////////////////////////////////////////////////////////////////
+
         VehicleControllerConfig m_configuration;
 
         rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr m_continueService;
@@ -53,6 +64,13 @@ namespace RAIControl
             FINISHED
         };
 
-        VehicleState m_currentState{ VehicleState::STOPPED };
+        VehicleState m_currentState{ VehicleState::DRIVING };
+        int m_currentPath{ 0 };
+        float m_currentTime{ 0.0f };
+        bool m_obstacleDetected{ false };
+
+        AZStd::pair<float, float> moveVehicle();
+        void detectCollisions(const AZ::Vector3& currentPosition);
+        void switchPath();
     };
 } // namespace RAIControl
