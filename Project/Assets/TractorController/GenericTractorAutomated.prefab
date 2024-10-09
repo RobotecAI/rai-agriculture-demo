@@ -1777,7 +1777,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 6029888188204447769,
                     "Child Entity Order": [
-                        "Instance_[51405573643237]/ContainerEntity"
+                        "Instance_[51405573643237]/ContainerEntity",
+                        "Instance_[382385788543533]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -1821,24 +1822,49 @@
         }
     },
     "Instances": {
-        "Instance_[51405573643237]": {
-            "Source": "Tractor/TractorSmall_Ackermann.prefab",
+        "Instance_[382385788543533]": {
+            "Source": "BackpackAirSprayer/BackpackAirSprayer.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/Entities/Entity_[2096968923509]/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 0.0
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[409875364293610]"
                 },
                 {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[2096968923509]/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[2096968923509]/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 2.0
-                },
+                    "op": "add",
+                    "path": "/Entities/Entity_[672261644089]/Components/EditorFixedJointComponent",
+                    "value": {
+                        "$type": "EditorFixedJointComponent",
+                        "Id": 891365939312014163,
+                        "Configuration": {
+                            "Local Position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Local Rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Fix Joint Location": false,
+                            "Parent Entity": "../Instance_[51405573643237]/Entity_[2144213563765]",
+                            "Child Entity": "Entity_[672261644089]",
+                            "Breakable": false,
+                            "Maximum Force": 1.0,
+                            "Maximum Torque": 1.0,
+                            "Display Debug": "Selected",
+                            "Select Lead on Snap": true,
+                            "Self Collide": false
+                        },
+                        "Component Mode": {}
+                    }
+                }
+            ]
+        },
+        "Instance_[51405573643237]": {
+            "Source": "Tractor/TractorSmall_Ackermann.prefab",
+            "Patches": [
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",

@@ -1446,7 +1446,7 @@
                 {
                     "op": "replace",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": -97.26800537109375
+                    "value": -97.26800537109376
                 },
                 {
                     "op": "remove",
@@ -1465,6 +1465,66 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace",
                     "value": "tractor2"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/ShapeColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/ShapeColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253798206633474]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/ShapeColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/ShapeColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253785321731586]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/2",
+                    "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/0",
+                    "value": 1.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
+                    "value": 0.0
                 }
             ]
         },
@@ -5175,7 +5235,7 @@
                 {
                     "op": "replace",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2285947484533]/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": -97.26800537109375
+                    "value": -97.26800537109376
                 },
                 {
                     "op": "remove",
