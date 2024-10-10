@@ -18,12 +18,11 @@
         "${Platforms}"
     ],
     "icon_path": "preview.png",
-    "requirements": "",
+    "requirements": "AtomLyIntegration",
     "documentation_url": "",
     "dependencies": [
+        "AtomLyIntegration"
     ],
-    "compatible_engines": [
-    ],
-    "engine_api_dependencies":[
-    ]
+    "compatible_engines": [],
+    "engine_api_dependencies": []
 }

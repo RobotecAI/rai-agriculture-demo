@@ -15,6 +15,7 @@
 #include <AzCore/Component/TickBus.h>
 #include <AzCore/Math/Transform.h>
 #include <AzCore/Math/Vector3.h>
+#include <AzCore/Outcome/Outcome.h>
 #include <AzCore/std/utility/pair.h>
 #include <rclcpp/rclcpp.hpp>
 #include <std_srvs/srv/trigger.hpp>
@@ -68,6 +69,11 @@ namespace RAIControl
         int m_currentPath{ 0 };
         float m_currentTime{ 0.0f };
         bool m_obstacleDetected{ false };
+
+        void lightsOn();
+        void lightsOff();
+        bool m_switchLights{ false };
+        float m_lightsTime{ 0.0f };
 
         AZStd::pair<float, float> moveVehicle();
         void detectCollisions(const AZ::Vector3& currentPosition);

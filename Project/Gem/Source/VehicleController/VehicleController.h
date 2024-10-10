@@ -48,7 +48,8 @@ namespace RAIControl
         float m_startDelay{ 1.0f };
         AZStd::vector<AZ::EntityId> m_predefinedPaths;
         AZStd::vector<AZ::EntityId> m_predefinedObstacles;
-        AZStd::unordered_map<AZ::EntityId, int> m_vehicleLights;
+        AZStd::vector<AZ::EntityId> m_vehicleLights;
+        AZStd::vector<float> m_vehicleLightsIntensities;
     };
 
 } // namespace RAIControl

@@ -74,7 +74,8 @@ namespace RAIControl
                 ->Field("startDelay", &VehicleControllerConfig::m_startDelay)
                 ->Field("predefinedPaths", &VehicleControllerConfig::m_predefinedPaths)
                 ->Field("predefinedObstacles", &VehicleControllerConfig::m_predefinedObstacles)
-                ->Field("vehicleLights", &VehicleControllerConfig::m_vehicleLights);
+                ->Field("vehicleLights", &VehicleControllerConfig::m_vehicleLights)
+                ->Field("vehicleLightsIntensities", &VehicleControllerConfig::m_vehicleLightsIntensities);
 
             if (auto editContext = serializeContext->GetEditContext())
             {
@@ -105,8 +106,13 @@ namespace RAIControl
                     ->DataElement(
                         AZ::Edit::UIHandlers::Default,
                         &VehicleControllerConfig::m_vehicleLights,
-                        "Lights and intensities",
-                        "List of the vehicle lights and max. intensities");
+                        "Vehicle lights",
+                        "List of the vehicle lights")
+                    ->DataElement(
+                        AZ::Edit::UIHandlers::Default,
+                        &VehicleControllerConfig::m_vehicleLightsIntensities,
+                        "Vehicle lights' intensities",
+                        "List of the max. intensities for vehicle lights");
             }
         }
     }

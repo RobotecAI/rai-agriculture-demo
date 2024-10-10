@@ -32,9 +32,10 @@ ly_add_target(
     BUILD_DEPENDENCIES
         PUBLIC
             Gem::ROS2.Static
+            Gem::Atom_AtomBridge.Static
+            Gem::CommonFeaturesAtom.Static
         PRIVATE
             AZ::AzGameFramework
-            Gem::Atom_AtomBridge.Static
 )
 
 # Request ROS2 packages to be included

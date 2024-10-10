@@ -7,6 +7,7 @@
  */
 
 #include "VehicleControllerComponent.h"
+#include <AtomLyIntegration/CommonFeatures/CoreLights/AreaLightBus.h>
 #include <AzCore/Component/TransformBus.h>
 #include <AzCore/Serialization/EditContext.h>
 #include <AzCore/Serialization/SerializeContext.h>
@@ -71,7 +72,7 @@ namespace RAIControl
         AZStd::string serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_continueServiceName);
         m_continueService = ros2Node->create_service<std_srvs::srv::Trigger>(
             serviceName.c_str(),
-            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            [this]([[maybe_unused]] const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 m_currentState = VehicleState::DRIVING;
                 response->success = true;
@@ -81,7 +82,7 @@ namespace RAIControl
         serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_replanServiceName);
         m_replanService = ros2Node->create_service<std_srvs::srv::Trigger>(
             serviceName.c_str(),
-            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            [this]([[maybe_unused]] const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 m_currentState = VehicleState::REVERSING;
                 response->success = true;
@@ -91,7 +92,7 @@ namespace RAIControl
         serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_stopServiceName);
         m_stopService = ros2Node->create_service<std_srvs::srv::Trigger>(
             serviceName.c_str(),
-            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            [this]([[maybe_unused]] const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 m_currentState = VehicleState::STOPPED;
                 response->success = true;
@@ -101,7 +102,7 @@ namespace RAIControl
         serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_stateServiceName);
         m_stateService = ros2Node->create_service<std_srvs::srv::Trigger>(
             serviceName.c_str(),
-            [this](const TriggerSrvRequest request, TriggerSrvResponse response)
+            [this]([[maybe_unused]] const TriggerSrvRequest request, TriggerSrvResponse response)
             {
                 AZStd::unordered_map<VehicleState, AZStd::string> stateMessages = {
                     { VehicleState::STOPPED, "STOPPED: the vehicle has stopped" },
@@ -119,10 +120,19 @@ namespace RAIControl
         serviceName = ROS2::ROS2Names::GetNamespacedName(ros2Frame->GetNamespace(), serviceNames.m_flashServiceName);
         m_flashService = ros2Node->create_service<std_srvs::srv::Trigger>(
             serviceName.c_str(),
-            [](const TriggerSrvRequest request, TriggerSrvResponse response)
+            [this]([[maybe_unused]] const TriggerSrvRequest request, TriggerSrvResponse response)
             {
-                response->success = true;
-                response->message = "flash!";
+                if (m_configuration.m_vehicleLights.size() != m_configuration.m_vehicleLightsIntensities.size())
+                {
+                    response->success = false;
+                    response->message = "Cannot flash, lights configured incorrectly.";
+                }
+                else
+                {
+                    m_switchLights = true;
+                    response->success = true;
+                    response->message = "Flashing triggered.";
+                }
             });
 
         AZ::TickBus::Handler::BusConnect();
@@ -139,6 +149,27 @@ namespace RAIControl
         if (AZ::TickBus::Handler::BusIsConnected())
         {
             AZ::TickBus::Handler::BusDisconnect();
+        }
+    }
+    void VehicleControllerComponent::lightsOn()
+    {
+        const AZ::Render::PhotometricUnit photoUnit = AZ::Render::PhotometricUnit::Lumen;
+
+        auto it1 = m_configuration.m_vehicleLights.begin();
+        auto it2 = m_configuration.m_vehicleLightsIntensities.begin();
+        for (; it1 != m_configuration.m_vehicleLights.end() && it2 != m_configuration.m_vehicleLightsIntensities.end(); ++it1, ++it2)
+        {
+            AZ::Render::AreaLightRequestBus::Event(*it1, &AZ::Render::AreaLightRequests::SetIntensityAndMode, *it2, photoUnit);
+        }
+    }
+
+    void VehicleControllerComponent::lightsOff()
+    {
+        const AZ::Render::PhotometricUnit photoUnit = AZ::Render::PhotometricUnit::Lumen;
+
+        for (const auto& lightId : m_configuration.m_vehicleLights)
+        {
+            AZ::Render::AreaLightRequestBus::Event(lightId, &AZ::Render::AreaLightRequests::SetIntensityAndMode, 0.0f, photoUnit);
         }
     }
 
@@ -254,6 +285,18 @@ namespace RAIControl
         if (m_currentTime < m_configuration.m_startDelay)
         {
             return;
+        }
+
+        // switch on/off lights
+        if (m_switchLights)
+        {
+            lightsOn();
+            m_switchLights = false;
+            m_lightsTime = m_currentTime + 0.2f; // keep the lights on for 200ms
+        }
+        if (m_lightsTime < m_currentTime)
+        {
+            lightsOff();
         }
 
         // early terminate
