@@ -70,13 +70,13 @@ namespace RAIControl
         float m_currentTime{ 0.0f };
         bool m_obstacleDetected{ false };
 
-        void lightsOn();
-        void lightsOff();
+        void LightsOn();
+        void LightsOff();
         bool m_switchLights{ false };
         float m_lightsTime{ 0.0f };
 
-        AZStd::pair<float, float> moveVehicle();
-        void detectCollisions(const AZ::Vector3& currentPosition);
-        void switchPath();
+        AZStd::pair<float, float> MoveVehicle();
+        void DetectCollisions(const AZ::Vector3& currentPosition);
+        void SwitchPath();
     };
 } // namespace RAIControl

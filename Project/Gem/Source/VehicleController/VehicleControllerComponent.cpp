@@ -104,7 +104,7 @@ namespace RAIControl
             serviceName.c_str(),
             [this]([[maybe_unused]] const TriggerSrvRequest request, TriggerSrvResponse response)
             {
-                AZStd::unordered_map<VehicleState, AZStd::string> stateMessages = {
+                static AZStd::unordered_map<VehicleState, AZStd::string> stateMessages = {
                     { VehicleState::STOPPED, "STOPPED: the vehicle has stopped" },
                     { VehicleState::DRIVING, "DRIVING: the vehicle is performing a mission" },
                     { VehicleState::REVERSING, "REVERSING: the vehicle is reversing to skip the current mission" },
@@ -151,7 +151,7 @@ namespace RAIControl
             AZ::TickBus::Handler::BusDisconnect();
         }
     }
-    void VehicleControllerComponent::lightsOn()
+    void VehicleControllerComponent::LightsOn()
     {
         const AZ::Render::PhotometricUnit photoUnit = AZ::Render::PhotometricUnit::Lumen;
 
@@ -163,7 +163,7 @@ namespace RAIControl
         }
     }
 
-    void VehicleControllerComponent::lightsOff()
+    void VehicleControllerComponent::LightsOff()
     {
         const AZ::Render::PhotometricUnit photoUnit = AZ::Render::PhotometricUnit::Lumen;
 
@@ -173,21 +173,21 @@ namespace RAIControl
         }
     }
 
-    AZStd::pair<float, float> VehicleControllerComponent::moveVehicle()
+    AZStd::pair<float, float> VehicleControllerComponent::MoveVehicle()
     {
         AZ::Vector3 vehiclePosition = AZ::Vector3::CreateZero();
         AZ::TransformBus::EventResult(vehiclePosition, m_configuration.m_vehicleEntityId, &AZ::TransformBus::Events::GetWorldTranslation);
-        detectCollisions(vehiclePosition);
+        DetectCollisions(vehiclePosition);
 
         AZ::Transform vehiclePose = AZ::Transform::CreateIdentity();
         AZ::TransformBus::EventResult(vehiclePose, m_configuration.m_vehicleEntityId, &AZ::TransformBus::Events::GetWorldTM);
         const AZ::Transform vehiclePoseInv = vehiclePose.GetInverse();
 
-        AZStd::unordered_map<VehicleState, float> directions = { { VehicleState::STOPPED, 0.0f },
-                                                                 { VehicleState::DRIVING, 1.0f },
-                                                                 { VehicleState::REVERSING, -1.0f },
-                                                                 { VehicleState::CHANGING_PATH, 1.0f },
-                                                                 { VehicleState::FINISHED, 0.0f } };
+        static AZStd::unordered_map<VehicleState, float> directions = { { VehicleState::STOPPED, 0.0f },
+                                                                        { VehicleState::DRIVING, 1.0f },
+                                                                        { VehicleState::REVERSING, -1.0f },
+                                                                        { VehicleState::CHANGING_PATH, 1.0f },
+                                                                        { VehicleState::FINISHED, 0.0f } };
 
         // Assume X axis looking forward
         const AZ::Vector3 vehicleForward = AZ::Vector3::CreateAxisX() * directions[m_currentState];
@@ -237,7 +237,7 @@ namespace RAIControl
         return AZStd::make_pair(crossTrackError, lateralError);
     }
 
-    void VehicleControllerComponent::detectCollisions(const AZ::Vector3& vehiclePosition)
+    void VehicleControllerComponent::DetectCollisions(const AZ::Vector3& vehiclePosition)
     {
         for (const auto& obstacleId : m_configuration.m_predefinedObstacles)
         {
@@ -260,7 +260,7 @@ namespace RAIControl
         m_obstacleDetected = false;
     }
 
-    void VehicleControllerComponent::switchPath()
+    void VehicleControllerComponent::SwitchPath()
     {
         if (m_currentPath < m_configuration.m_predefinedPaths.size() - 1)
         {
@@ -290,13 +290,14 @@ namespace RAIControl
         // switch on/off lights
         if (m_switchLights)
         {
-            lightsOn();
+            LightsOn();
             m_switchLights = false;
             m_lightsTime = m_currentTime + 0.2f; // keep the lights on for 200ms
         }
         if (m_lightsTime < m_currentTime)
         {
-            lightsOff();
+            LightsOff();
+            m_lightsTime = AZStd::numeric_limits<float>::infinity();
         }
 
         // early terminate
@@ -306,16 +307,16 @@ namespace RAIControl
         }
 
         // calculate movement and process state machine
-        const auto [crossTrackError, lateralError] = moveVehicle();
+        const auto [crossTrackError, lateralError] = MoveVehicle();
         if (m_currentState == VehicleState::DRIVING && lateralError < -0.5)
         {
             // Reached the end of the current path
-            switchPath();
+            SwitchPath();
         }
         else if (m_currentState == VehicleState::REVERSING && lateralError > 0.5)
         {
             // Reaching the beginning of the aborted path
-            switchPath();
+            SwitchPath();
         }
         else if (m_currentState == VehicleState::CHANGING_PATH && AZStd::abs(lateralError) < 0.5 && AZStd::abs(crossTrackError) < 0.5)
         {
