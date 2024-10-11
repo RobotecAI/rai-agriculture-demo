@@ -241,11 +241,11 @@
                                 "Instance_[51405573643237]/Entity_[2148508531061]"
                             ],
                             "vehicleLightsIntensities": [
-                                800,
-                                6,
-                                6,
-                                6,
-                                6
+                                800.0,
+                                6.0,
+                                6.0,
+                                6.0,
+                                6.0
                             ]
                         }
                     }
@@ -1792,7 +1792,8 @@
                     "Id": 6029888188204447769,
                     "Child Entity Order": [
                         "Instance_[51405573643237]/ContainerEntity",
-                        "Instance_[382385788543533]/ContainerEntity"
+                        "Instance_[382385788543533]/ContainerEntity",
+                        "Instance_[73412310835229]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -1975,6 +1976,36 @@
                 {
                     "op": "remove",
                     "path": "/Entities/Entity_[2217228007797]/Components/ROS2LidarSensorComponent"
+                }
+            ]
+        },
+        "Instance_[73412310835229]": {
+            "Source": "Assets/TractorController/RotLight.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[409875364293610]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 1.115234375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 0.5335350036621094
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.8027963638305664
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[122431352745838]/Components/EditorHingeJointComponent/Configuration/Parent Entity",
+                    "value": "../Instance_[51405573643237]/Entity_[2144213563765]"
                 }
             ]
         }

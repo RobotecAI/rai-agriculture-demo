@@ -1525,6 +1525,16 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
                     "value": 0.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/EditorRigidBodyComponent/Configuration/Initial angular velocity/2",
+                    "value": 5.099999904632568
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 35.0
                 }
             ]
         },
