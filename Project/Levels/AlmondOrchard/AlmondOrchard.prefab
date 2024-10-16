@@ -727,10 +727,7 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2825622541879339108,
-                    "Child Entity Order": [
-                        "Instance_[287128893674793]/ContainerEntity"
-                    ]
+                    "Id": 2825622541879339108
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1535,16 +1532,6 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/TransformComponent/Transform Data/Rotate/2",
                     "value": 35.0
-                }
-            ]
-        },
-        "Instance_[287128893674793]": {
-            "Source": "Assets/CatController/EscapingCat.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
-                    "value": "../Entity_[483001686813339]"
                 }
             ]
         },
