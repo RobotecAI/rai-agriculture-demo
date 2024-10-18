@@ -2,3 +2,7 @@
 build/
 install/
 log/
+
+#VSCode, Vim and other
+.vscode/
+*.swp
