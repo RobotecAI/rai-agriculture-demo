@@ -1976,6 +1976,46 @@
                 {
                     "op": "remove",
                     "path": "/Entities/Entity_[2217228007797]/Components/ROS2LidarSensorComponent"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/ROS2CameraSensorEditorComponent/CameraSensorConfig/VerticalFieldOfViewDeg",
+                    "value": 60.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/ROS2CameraSensorEditorComponent/CameraSensorConfig/Width",
+                    "value": 1024
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/ROS2CameraSensorEditorComponent/CameraSensorConfig/Height",
+                    "value": 768
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 2.6710586547851563
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 0.000030517578125
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.6595537662506104
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": -90.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2135623629173]/Components/TransformComponent/Transform Data/Rotate/1",
+                    "value": 90.0
                 }
             ]
         },

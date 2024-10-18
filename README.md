@@ -121,3 +121,49 @@ $DEMO_BASE/o3de/scripts/o3de.sh export-project -es ExportScripts/export_source_b
 ```bash
 $DEMO_BASE/rai-agriculture-demo/release/RAIAgricultureDemoGamePackage/RAIAgricultureDemo.GameLauncher
 ```
+
+## Running the demo
+
+When launched, the tractors will automatically start their missions, which is navigating through the orchard with the predefined paths. They will find the obstacles on the way, including a compost bag, a set of barrels, and fallen tree branches. There is also one false positive detection, i.e., the tractor stops and asks for help with no reason. You can change the camera view using keyboard keys to observe the tractors:
+1. Camera next to the first obstacle (a compost bag)
+2. Camera next to the second obstacle (a set of barrels)
+3. Camera next to the third obstacle (a fallen tree branches)
+4. Camera next to the false positive detection of the tractor
+5. Top view of the orchard
+6. Camera behind the first tractor
+7. Camera behind the second tractor
+
+Each tractor can be controlled using the ROS 2 services using trigger messages (`std_srvs/srv/Trigger`). This includes:
+- a request to continue the current mission (can be executed when the tractor stops) using the service name `continue`
+- a request to abort the current mission and replan the navigation path using the service name `replan`
+- a request to stop using the service name `stop`
+- a request to flash lights and honk using the service name `flash`
+- a request to provide the information about the current state using the service name `current_state`
+
+All services are namespaced, so the requests can be sent to a certain tractor. The output of `ros2 service list` might look as follows when running the demo:
+
+```
+/o3de_ros2_node/describe_parameters
+/o3de_ros2_node/get_parameter_types
+/o3de_ros2_node/get_parameters
+/o3de_ros2_node/list_parameters
+/o3de_ros2_node/set_parameters
+/o3de_ros2_node/set_parameters_atomically
+/tractor1/continue
+/tractor1/current_state
+/tractor1/flash
+/tractor1/replan
+/tractor1/stop
+/tractor2/continue
+/tractor2/current_state
+/tractor2/flash
+/tractor2/replan
+/tractor2/stop
+```
+
+As the user, you might want to use `current_state` service once in a while to ensure the tractor is still performing a mission. When the obstacle is found, the tractor would simply stop and wait for the operator to decide what to do next (continue/abort/flash).
+
+## Disclaimer
+
+The demo was implemented to test the performance of the AI system making decisions when tractors stop. Therefore, multiple simplifications were made. E.g., the tractors move on the hardcoded spline without any navigation systems being involved. Moreover, the tractors stop based on the distance to the obstacles that are hardcoded in the system.
+
