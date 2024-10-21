@@ -1,0 +1,22 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "AZStd::vector<SeedInfo, allocator>",
+    "ClassData": [
+        {
+            "assetId": {
+                "guid": "{1CBEE567-0954-59BA-8205-93BE85D07D0B}"
+            },
+            "platformFlags": 2,
+            "pathHint": "autoexec.cfg"
+        },
+        {
+            "assetId": {
+                "guid": "{CB26C8DC-730F-5F50-B46E-20A11DE4DE00}",
+                "subId": 3099423981
+            },
+            "platformFlags": 2,
+            "pathHint": "levels/almondorchard/almondorchard.spawnable"
+        }
+    ]
+}
