@@ -1,0 +1,22 @@
+{
+    "materialType": "@gemroot:Terrain@/Assets/Materials/Terrain/TerrainDetailMaterial.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Overlay",
+        "baseColor.textureMap": "Textures/brown_mud_leaves_01_basecolor.jpg",
+        "baseColor.textureMapUv": "Unwrapped",
+        "metallic.useTexture": false,
+        "normal.factor": 0.9599999785423279,
+        "normal.flipX": true,
+        "normal.flipY": true,
+        "normal.textureMap": "Textures/brown_mud_leaves_01_normal.png",
+        "normal.textureMapUv": "Unwrapped",
+        "parallax.textureMapUv": "Unwrapped",
+        "parallax.useTexture": false,
+        "roughness.textureMap": "Textures/brown_mud_leaves_01_roughness.png",
+        "roughness.textureMapUv": "Unwrapped",
+        "specularF0.factor": 0.0,
+        "uv.tileU": 0.30000001192092896,
+        "uv.tileV": 0.30000001192092896
+    }
+}

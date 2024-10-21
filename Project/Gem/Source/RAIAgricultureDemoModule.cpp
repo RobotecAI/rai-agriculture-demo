@@ -3,13 +3,13 @@
 #include <AzCore/Module/Module.h>
 
 #include "RAIAgricultureDemoSystemComponent.h"
+#include "VehicleController/VehicleControllerComponent.h"
 
 #include <RAIAgricultureDemo/RAIAgricultureDemoTypeIds.h>
 
 namespace RAIAgricultureDemo
 {
-    class RAIAgricultureDemoModule
-        : public AZ::Module
+    class RAIAgricultureDemoModule : public AZ::Module
     {
     public:
         AZ_RTTI(RAIAgricultureDemoModule, RAIAgricultureDemoModuleTypeId, AZ::Module);
@@ -19,9 +19,9 @@ namespace RAIAgricultureDemo
             : AZ::Module()
         {
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
-            m_descriptors.insert(m_descriptors.end(), {
-                RAIAgricultureDemoSystemComponent::CreateDescriptor(),
-            });
+            m_descriptors.insert(
+                m_descriptors.end(),
+                { RAIAgricultureDemoSystemComponent::CreateDescriptor(), RAIControl::VehicleControllerComponent::CreateDescriptor() });
         }
 
         /**
@@ -34,7 +34,7 @@ namespace RAIAgricultureDemo
             };
         }
     };
-}// namespace RAIAgricultureDemo
+} // namespace RAIAgricultureDemo
 
 #if defined(O3DE_GEM_NAME)
 AZ_DECLARE_MODULE_CLASS(AZ_JOIN(Gem_, O3DE_GEM_NAME), RAIAgricultureDemo::RAIAgricultureDemoModule)
