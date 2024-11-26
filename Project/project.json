@@ -25,7 +25,6 @@
         "DebugDraw",
         "ImGui",
         "LandscapeCanvas",
-        "Terrain",
         "Vegetation",
         "PhysX5",
         "PhysX5Debug",
