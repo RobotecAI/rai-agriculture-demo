@@ -1,0 +1,168 @@
+{
+    "Type": "JsonSerialization",
+    "Version": 1,
+    "ClassName": "AZStd::vector<SeedInfo, allocator>",
+    "ClassData": [
+        {
+            "assetId": {
+                "guid": "{D8A8BD4E-015B-5A05-93C1-07CDFB9DDB94}"
+            },
+            "platformFlags": 2,
+            "pathHint": "succulents/cheiridopsis_f.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{D8E6F54F-3DFE-5749-9FEC-E03DB46950C9}"
+            },
+            "platformFlags": 2,
+            "pathHint": "plasticbucket/plasticbucket_static.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{55F6D980-D01A-5827-AFED-5B3DD9A36212}"
+            },
+            "platformFlags": 2,
+            "pathHint": "grass/grass_01.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{95FB4A7C-5BF1-5374-BF03-E6333ACAEBAB}"
+            },
+            "platformFlags": 2,
+            "pathHint": "cardboardbox/cardboardbox.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{655CB440-009E-5B9E-BF2D-92AD27BA8781}"
+            },
+            "platformFlags": 2,
+            "pathHint": "paintcan/paintcan_static.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{B99FDF54-3459-5A54-98FA-00FDBE8E07A4}"
+            },
+            "platformFlags": 2,
+            "pathHint": "shrubs/shrub_02c.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{B7E7548C-80D5-5CBA-B850-984E9DD90B40}"
+            },
+            "platformFlags": 2,
+            "pathHint": "shrubs/shrub_02b.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{DDD0BFDC-09F2-527C-B597-C4606CAC9552}"
+            },
+            "platformFlags": 2,
+            "pathHint": "shrubs/shrub_02a.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{16C81820-14D2-504B-A7F7-51E4E18CE41E}"
+            },
+            "platformFlags": 2,
+            "pathHint": "shrubs/shrub_02d.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{94662F04-A575-576B-9613-056029F76076}"
+            },
+            "platformFlags": 2,
+            "pathHint": "almondtree/almondtree.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{230D9F3B-9C2B-519E-A54B-4ABED4C3AC04}"
+            },
+            "platformFlags": 2,
+            "pathHint": "planterbox/planterbox.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{D4E65AF8-6E6E-5F69-896A-F25409F6A763}"
+            },
+            "platformFlags": 2,
+            "pathHint": "plasticcanister/plasticcanister_static.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{F0885017-65BB-53D7-969B-6A57C13812AE}"
+            },
+            "platformFlags": 2,
+            "pathHint": "miscbushes/wildrooibos_a.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{639334A2-840D-536F-BC95-06FBE6CDBA4B}"
+            },
+            "platformFlags": 2,
+            "pathHint": "miscbushes/searsialucida_a.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{2881D581-93DE-5ED7-A386-2E7299B1AF9F}"
+            },
+            "platformFlags": 2,
+            "pathHint": "plasticbarrel/plasticbarrel.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{441392B7-160D-5752-95B0-DF0EA4B0E4B2}"
+            },
+            "platformFlags": 2,
+            "pathHint": "plasticbarrel/plasticbarrel2.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{A91019E4-3BBC-5845-9D62-9D3113A73B3B}"
+            },
+            "platformFlags": 2,
+            "pathHint": "tractor/tractor_ackermann.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{7120D472-F326-5C76-A11A-EED7D3660E54}"
+            },
+            "platformFlags": 2,
+            "pathHint": "tractor/tractorwithairsprayer_ackermann.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{8A9BA450-28CC-59C6-8B34-7263779A2830}"
+            },
+            "platformFlags": 2,
+            "pathHint": "tractor/tractorsmall_ackermann.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{64AA8533-80BA-573E-BB83-835FCFE1DA82}"
+            },
+            "platformFlags": 2,
+            "pathHint": "rustedspade/rustedspade.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{A329FB49-DD8E-5A85-BC84-629EF4AF03AD}"
+            },
+            "platformFlags": 2,
+            "pathHint": "misctrees/quivertree.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{37B7AE56-F774-5FD4-8D64-AEA4D8C654CE}"
+            },
+            "platformFlags": 2,
+            "pathHint": "mapletree/mapletree.prefabinfo"
+        },
+        {
+            "assetId": {
+                "guid": "{3E52FD0C-F9C0-5E71-85A2-DF438BEE1690}"
+            },
+            "platformFlags": 2,
+            "pathHint": "compostbag/compostbag.prefabinfo"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[export_project]
+project.build.config = profile
+tool.build.config = profile
+archive.output.format = none
+
+option.build.tools = True
+option.build.assets = True
+option.fail.on.asset.errors = True
+option.build.game.launcher = True
+option.build.server.launcher = False
+option.build.headless.server.launcher = False
+option.build.unified.launcher = False
+
+default.build.tools.path = build/tools
+default.launcher.build.path = build/launcher
+
+option.default.output.path = build/release
+option.default.export.script = export_source_built_project.py
+
+seedlist.paths = AssetBundling/SeedLists/AgriSeed.seed;AssetBundling/SeedLists/DefaultLevel.seed;AssetBundling/SeedLists/SpawnableDb.seed

@@ -23,7 +23,8 @@
                     "Entity_[436856558185115]",
                     "Entity_[596052605927933]",
                     "Instance_[53177680961249]/ContainerEntity",
-                    "Instance_[206662335674910]/ContainerEntity"
+                    "Instance_[206662335674910]/ContainerEntity",
+                    "Entity_[136086576195504]"
                 ]
             },
             "EditorInspectorComponent": {
@@ -85,6 +86,17 @@
                 "Id": 4709333686948241310,
                 "LocalBookmarkFileName": "AgricultureLevel_1696872721922202807.setreg"
             },
+            "ROS2FrameEditorComponent": {
+                "$type": "ROS2FrameEditorComponent",
+                "Id": 14905461202224158730,
+                "ROS2FrameConfiguration": {
+                    "Namespace Configuration": {
+                        "Namespace Strategy": 1
+                    },
+                    "Frame Name": "world",
+                    "Publish Transform": false
+                }
+            },
             "TransformComponent": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 3724232816857354000,
@@ -93,6 +105,82 @@
         }
     },
     "Entities": {
+        "Entity_[136086576195504]": {
+            "Id": "Entity_[136086576195504]",
+            "Name": "WorkingArea",
+            "Components": {
+                "EditorAxisAlignedBoxShapeComponent": {
+                    "$type": "EditorAxisAlignedBoxShapeComponent",
+                    "Id": 1066533725989054031,
+                    "AxisAlignedBoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                200.0,
+                                200.0,
+                                7.0
+                            ],
+                            "TranslationOffset": [
+                                100.0,
+                                100.0,
+                                4.0
+                            ]
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16109213332667131898
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10937195799958117507
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2351795377513436773
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15730786417672162781
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16312423914112715913
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1561499152163310752
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16475678029400517801
+                },
+                "EditorTagComponent": {
+                    "$type": "EditorTagComponent",
+                    "Id": 10699293568130399718,
+                    "Tags": [
+                        "TopViewAABB"
+                    ]
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16251538545153989777
+                },
+                "ROS2FrameEditorComponent": {
+                    "$type": "ROS2FrameEditorComponent",
+                    "Id": 9824714142379235413,
+                    "ROS2FrameConfiguration": {
+                        "Frame Name": "background",
+                        "Publish Transform": false
+                    }
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6565337149677970282,
+                    "Parent Entity": "Entity_[340953507857]"
+                }
+            }
+        },
         "Entity_[144265396507945]": {
             "Id": "Entity_[144265396507945]",
             "Name": "Collider",
@@ -5129,6 +5217,11 @@
                 {
                     "op": "remove",
                     "path": "/Entities/Entity_[151711858327746]/Components/EditorEntitySortComponent/Child Entity Order/0"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[151746218066114]/Components/EditorGradientTransformComponent/Configuration/Translate/2",
+                    "value": 3.731523036956787
                 }
             ]
         },
