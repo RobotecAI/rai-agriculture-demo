@@ -1505,6 +1505,141 @@
                 },
                 {
                     "op": "replace",
+                    "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/EditorRigidBodyComponent/Configuration/Initial angular velocity/2",
+                    "value": 5.099999904632568
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 35.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/8"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/7/Forward/0",
+                    "value": 79.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/8"
+                },
+                {
+                    "op": "replace",
                     "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/0",
                     "value": 1.0
                 },
@@ -1512,6 +1647,66 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/ShapeColor/2",
                     "value": 0.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/8"
                 },
                 {
                     "op": "replace",
@@ -1522,16 +1717,6 @@
                     "op": "replace",
                     "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShapeMeshConfig/ShapeConfig/DrawColor/2",
                     "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/EditorRigidBodyComponent/Configuration/Initial angular velocity/2",
-                    "value": 5.099999904632568
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[73412310835229]/Entities/Entity_[122431352745838]/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 35.0
                 }
             ]
         },
@@ -5251,6 +5436,191 @@
                     "op": "replace",
                     "path": "/Instances/Instance_[51405573643237]/Entities/Entity_[2144213563765]/Components/ROS2FrameEditorComponent/ROS2FrameConfiguration/Namespace Configuration/Namespace",
                     "value": "tractor1"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Vertices/Vertices/8"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/7/Forward/0",
+                    "value": 79.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorSplineComponent/Configuration/Spline/Bezier Data/8"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/22"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/21"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/20"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/19"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/18"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/17"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/16"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/15"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/14"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/13"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/12"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/11"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/10"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/9"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[253776731796994]/Components/EditorTubeShapeComponent/TubeShape/VariableRadius/Elements/8"
                 }
             ]
         },
