@@ -75,7 +75,8 @@ namespace RAIControl
                 ->Field("predefinedPaths", &VehicleControllerConfig::m_predefinedPaths)
                 ->Field("predefinedObstacles", &VehicleControllerConfig::m_predefinedObstacles)
                 ->Field("vehicleLights", &VehicleControllerConfig::m_vehicleLights)
-                ->Field("vehicleLightsIntensities", &VehicleControllerConfig::m_vehicleLightsIntensities);
+                ->Field("vehicleLightsIntensities", &VehicleControllerConfig::m_vehicleLightsIntensities)
+                ->Field("obstacleDistanceThreshold", &VehicleControllerConfig::m_obstacleDistanceThreshold);
 
             if (auto editContext = serializeContext->GetEditContext())
             {
@@ -112,7 +113,12 @@ namespace RAIControl
                         AZ::Edit::UIHandlers::Default,
                         &VehicleControllerConfig::m_vehicleLightsIntensities,
                         "Vehicle lights' intensities",
-                        "List of the max. intensities for vehicle lights");
+                        "List of the max. intensities for vehicle lights")
+                    ->DataElement(
+                        AZ::Edit::UIHandlers::Default,
+                        &VehicleControllerConfig::m_obstacleDistanceThreshold,
+                        "Obstacle distance threshold",
+                        "Distance threshold for the vehicle to stop when an obstacle is detected");
             }
         }
     }
