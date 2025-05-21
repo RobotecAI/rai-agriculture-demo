@@ -50,6 +50,9 @@ namespace RAIControl
         AZStd::vector<AZ::EntityId> m_predefinedObstacles;
         AZStd::vector<AZ::EntityId> m_vehicleLights;
         AZStd::vector<float> m_vehicleLightsIntensities;
+
+        // Distance from the obstacle at which the tractor will stop
+        float m_obstacleDistanceThreshold{ 7.0f };
     };
 
 } // namespace RAIControl

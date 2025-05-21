@@ -244,7 +244,7 @@ namespace RAIControl
             AZ::Vector3 obstacleTranslation = AZ::Vector3::CreateZero();
             AZ::TransformBus::EventResult(obstacleTranslation, obstacleId, &AZ::TransformBus::Events::GetWorldTranslation);
 
-            if ((obstacleTranslation - vehiclePosition).GetLength() < 5.0)
+            if ((obstacleTranslation - vehiclePosition).GetLength() < m_configuration.m_obstacleDistanceThreshold)
             {
                 // Set the flag and stop the vehicle
                 if (!m_obstacleDetected)
