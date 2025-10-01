@@ -1,0 +1,7 @@
+{
+    "materialType": "../Types/Billboard.materialtype",
+    "materialTypeVersion": 3,
+    "propertyValues": {
+        "settings.textureMapBaseColor": "../../../Terrain/LargeTerrain/Objects/Models/Materials/Textures/farm_barn_LOD0.png"
+    }
+}

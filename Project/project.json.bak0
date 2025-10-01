@@ -15,7 +15,7 @@
         "RAIAgricultureDemo"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de",
+    "engine": "o3de-sdk",
     "external_subdirectories": [
         "Gem"
     ],
@@ -29,16 +29,7 @@
         "Vegetation",
         "PhysX5",
         "PhysX5Debug",
-        "ROS2>=3.1.0",
-        "ROS2Controllers",
-        "ROS2Sensors",
-        "RobotecSkyboxAssets",
-        "RobotecAgricultureDecorationsAssets",
-        "RobotecAgricultureMachines>=2.0.0",
-        "RobotecAgricultureVegetationAssets",
-        "RobotecSmallContainersAssets",
-        "Smoothing",
-        "SimpleLidarSensor"
+        "ROS2>=3.1.0"
     ],
     "restricted": "RAIAgricultureDemo",
     "engine_version": "2.3.0"

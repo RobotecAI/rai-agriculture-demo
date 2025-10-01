@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$USER_HOME$/AMD-RosCon2025-Demo/gems/robotec-o3de-tools" vcs="Git" />
+    <mapping directory="$USER_HOME$/AMD-RosCon2025-Demo/prorietary/robotec-o3de-tools-private" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../o3de" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../o3de-extras" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmake-build-profile/_deps/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cmake-build-profile/_deps/recastnavigation-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../robotec-agriculture-assets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../robotec-generic-assets" vcs="Git" />
+  </component>
+</project>
