@@ -6,18 +6,24 @@
  *
  */
 
-#define FORCE_OPAQUE 1
+#define FORCE_OPAQUE 0
 
 #include <scenesrg_all.srgi>
 #include <viewsrg_all.srgi>
+
+#include <Atom/Features/SrgSemantics.azsli>
+
+
+#include <Atom/Features/PBR/AlphaUtils.azsli>
+
 #include <Atom/Features/PBR/DefaultObjectSrg.azsli>
 #include <Atom/RPI/ShaderResourceGroups/DefaultDrawSrg.azsli>
 #include <Atom/Features/InstancedTransforms.azsli>
-#include <Atom/Features/PBR/DefaultObjectSrg.azsli>
+
 #include <Atom/Features/Pipeline/Forward/ForwardPassSrg.azsli>
 #include <Atom/Features/Pipeline/Forward/ForwardPassOutput.azsli>
-#include <Atom/Features/SrgSemantics.azsli>
 #include <Atom/Features/ColorManagement/TransformColor.azsli>
+#include <Atom/Features/ParallaxMapping.azsli>
 #include <Atom/Features/PBR/Lighting/StandardLighting.azsli>
 #include <Atom/Features/PBR/Lights/IblForward.azsli>
 #include <Atom/Features/PBR/Decals.azsli>
@@ -154,7 +160,7 @@ ForwardPassOutput Billboard_ForwardPassPS(VSOutput IN)
     ForwardPassOutput OUT;
 
     OUT.m_diffuseColor =   lightingOutput.m_diffuseColor;
-
+    OUT.m_diffuseColor.w = -1;
     OUT.m_specularColor = lightingOutput.m_specularColor;
     OUT.m_specularF0 = lightingOutput.m_specularF0;
     OUT.m_albedo = lightingOutput.m_albedo;

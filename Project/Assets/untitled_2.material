@@ -1,0 +1,17 @@
+{
+    "materialType": "BillboardStandardPBR/BillboardStandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Terrain/LargeTerrain/Objects/Models/Materials/Textures/farm_barn_LOD0.png",
+        "general.applySpecularAA": false,
+        "general.castShadows": false,
+        "general.doubleSided": true,
+        "general.enableAreaLights": false,
+        "general.enableDirectionalLights": false,
+        "general.enablePunctualLights": false,
+        "general.enableShadows": false,
+        "general.forwardPassIBLSpecular": true,
+        "metallic.factor": 1.0,
+        "opacity.mode": "Cutout"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "description": "Material Type with properties used to define Standard PBR, a metallic-roughness Physically-Based Rendering (PBR) material shading model.",
+    "version": 5,
+    "versionUpdates": [
+        {
+            "toVersion": 4,
+            "actions": [
+                {"op": "rename", "from": "opacity.doubleSided", "to": "general.doubleSided"}
+            ]
+        },
+        {
+            "toVersion": 5,
+            "actions": [
+                {"op": "rename", "from": "irradiance.color", "to": "irradiance.manualColor"},
+                {"op": "setValue", "name": "irradiance.irradianceColorSource", "value": "Manual"}
+            ]
+        }
+    ],
+    "propertyLayout": {
+        "propertyGroups": [
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/BaseColorPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/VertexColorPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/MetallicPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/RoughnessPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/SpecularPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/NormalPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/OcclusionPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/EmissivePropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/ClearCoatPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/ParallaxPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/OpacityPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/UvPropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/IrradiancePropertyGroup.json"
+            },
+            { 
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/GeneralCommonPropertyGroup.json"
+            },
+            {
+                 "$import": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/MaterialInputs/SilhouetteBlockerPropertyGroup.json"
+            }
+        ]
+    },
+    "lightingModel": "Standard",
+    "materialShaderCode": "BillboardStandardPBR.azsli",
+    "functors": [
+    ],
+    "uvNameMap": {
+        "UV0": "Tiled",
+        "UV1": "Unwrapped"
+    }
+}
+

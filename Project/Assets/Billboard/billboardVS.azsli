@@ -1,0 +1,17 @@
+
+#pragma once
+
+#include <scenesrg_all.srgi>
+#include <viewsrg_all.srgi>
+float4 GetFacingUser( float4x4 objectToWorld, float3 inPosition)
+{
+    float3 vpos = mul((float3x3)objectToWorld, inPosition);
+    const float4 worldCoord = float4(objectToWorld[0][3],objectToWorld[1][3],objectToWorld[2][3],1);
+
+    const float4x4 Pm = ViewSrg::m_projectionMatrix;
+    const float4x4 Vm = ViewSrg::m_viewMatrix;
+    float4 viewPos = mul(Vm, worldCoord) + float4(vpos,0); 
+    float4 outPos = mul(Pm, viewPos);
+    return outPos;
+};
+
