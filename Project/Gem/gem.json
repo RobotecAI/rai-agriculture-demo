@@ -2,12 +2,12 @@
     "gem_name": "RAIAgricultureDemo",
     "version": "1.0.0",
     "display_name": "RAIAgricultureDemo",
-    "license": "What license RAIAgricultureDemo uses goes here: i.e. Apache-2.0 or MIT",
-    "license_url": "Link to the license web site goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT",
-    "origin": "The name of the originator goes here. i.e. XYZ Inc.",
-    "origin_url": "The primary repo for RAIAgricultureDemo goes here: i.e. http://www.mydomain.com",
+    "license": "Apache-2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "origin": "Robotec.ai",
+    "origin_url": "https://github.com/RobotecAI/rai-agriculture-demo",
     "type": "",
-    "summary": "A short description of RAIAgricultureDemo.",
+    "summary": "Agricultural robot demo project for RAI on Open 3D Engine.",
     "canonical_tags": [
         "Gem"
     ],
